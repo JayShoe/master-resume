@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "directus": {
+      "command": "npx",
+      "args": [
+        "@directus/content-mcp@latest"
+      ],
+      "env": {
+        "DIRECTUS_URL": "http://localhost:8055",
+        "DIRECTUS_TOKEN": "your-directus-token-here"
+      }
+    }
+  }
+}

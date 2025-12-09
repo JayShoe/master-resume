@@ -1,0 +1,209 @@
+{
+  "collection": "education_accomplishments",
+  "meta": {
+    "accountability": "all",
+    "archive_app_filter": true,
+    "archive_field": null,
+    "archive_value": null,
+    "collapse": "open",
+    "collection": "education_accomplishments",
+    "color": null,
+    "display_template": null,
+    "group": null,
+    "hidden": true,
+    "icon": "import_export",
+    "item_duplication_fields": null,
+    "note": null,
+    "preview_url": null,
+    "singleton": false,
+    "sort": null,
+    "sort_field": null,
+    "translations": null,
+    "unarchive_value": null,
+    "versioning": false
+  },
+  "schema": {
+    "name": "education_accomplishments"
+  },
+  "fields": [
+    {
+      "field": "accomplishments_id",
+      "type": "integer",
+      "meta": {
+        "collection": "education_accomplishments",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "accomplishments_id",
+        "group": null,
+        "hidden": true,
+        "interface": null,
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 3,
+        "special": null,
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      },
+      "schema": {
+        "name": "accomplishments_id",
+        "table": "education_accomplishments",
+        "data_type": "integer",
+        "default_value": null,
+        "max_length": null,
+        "numeric_precision": 32,
+        "numeric_scale": 0,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": "accomplishments",
+        "foreign_key_column": "id"
+      }
+    },
+    {
+      "field": "education_id",
+      "type": "integer",
+      "meta": {
+        "collection": "education_accomplishments",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "education_id",
+        "group": null,
+        "hidden": true,
+        "interface": null,
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 2,
+        "special": null,
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      },
+      "schema": {
+        "name": "education_id",
+        "table": "education_accomplishments",
+        "data_type": "integer",
+        "default_value": null,
+        "max_length": null,
+        "numeric_precision": 32,
+        "numeric_scale": 0,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": "education",
+        "foreign_key_column": "id"
+      }
+    },
+    {
+      "field": "id",
+      "type": "integer",
+      "meta": {
+        "collection": "education_accomplishments",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "id",
+        "group": null,
+        "hidden": true,
+        "interface": null,
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 1,
+        "special": null,
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      },
+      "schema": {
+        "name": "id",
+        "table": "education_accomplishments",
+        "data_type": "integer",
+        "default_value": null,
+        "max_length": null,
+        "numeric_precision": 32,
+        "numeric_scale": 0,
+        "is_nullable": false,
+        "is_unique": true,
+        "is_indexed": false,
+        "is_primary_key": true,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": true,
+        "foreign_key_table": null,
+        "foreign_key_column": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "field": "accomplishments_id",
+      "related_collection": "accomplishments",
+      "meta": {
+        "junction_field": "education_id",
+        "many_collection": "education_accomplishments",
+        "many_field": "accomplishments_id",
+        "one_allowed_collections": null,
+        "one_collection": "accomplishments",
+        "one_collection_field": null,
+        "one_deselect_action": "nullify",
+        "one_field": "education",
+        "sort_field": null
+      },
+      "schema": {
+        "table": "education_accomplishments",
+        "column": "accomplishments_id",
+        "foreign_key_table": "accomplishments",
+        "foreign_key_column": "id",
+        "constraint_name": "education_accomplishments_accomplishments_id_foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "SET NULL"
+      }
+    },
+    {
+      "field": "education_id",
+      "related_collection": "education",
+      "meta": {
+        "junction_field": "accomplishments_id",
+        "many_collection": "education_accomplishments",
+        "many_field": "education_id",
+        "one_allowed_collections": null,
+        "one_collection": "education",
+        "one_collection_field": null,
+        "one_deselect_action": "nullify",
+        "one_field": "accomplishments",
+        "sort_field": null
+      },
+      "schema": {
+        "table": "education_accomplishments",
+        "column": "education_id",
+        "foreign_key_table": "education",
+        "foreign_key_column": "id",
+        "constraint_name": "education_accomplishments_education_id_foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "SET NULL"
+      }
+    }
+  ]
+}

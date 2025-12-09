@@ -1,0 +1,42 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "if [ -d out ]; then npx serve@latest out -p ${PORT:-8080}; else next start; fi",
+    "start:win": "if exist out (npx serve@latest out -p %PORT%) else (next start)",
+    "start:static": "npx serve@latest out -p ${PORT:-8080}",
+    "schema:fetch": "node scripts/schema-fetch.mjs",
+    "schema:generate": "npm run schema:fetch",
+    "export-data": "node scripts/export-data.js",
+    "build:static": "NEXT_PUBLIC_USE_STATIC=true npm run build",
+    "build:static:win": "set NEXT_PUBLIC_USE_STATIC=true && npm run build",
+    "build:full": "npm run export-data && npm run build:static"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.0",
+    "@directus/sdk": "^20.0.3",
+    "dotenv": "^17.2.2",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.543.0",
+    "marked": "^17.0.1",
+    "next": "15.5.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hook-form": "^7.62.0",
+    "recharts": "^3.2.0",
+    "swiper": "^12.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "node-fetch": "^3.3.2",
+    "tailwindcss": "^4",
+    "tsx": "^4.20.5",
+    "typescript": "^5"
+  }
+}

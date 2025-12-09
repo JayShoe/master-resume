@@ -1,0 +1,222 @@
+[
+  {
+    "category": "tool",
+    "date_created": "2025-12-08T19:50:55.932Z",
+    "date_updated": null,
+    "icon": null,
+    "id": 12,
+    "is_current": true,
+    "last_used": null,
+    "name": "Adobe Creative Suite",
+    "proficiency_level": 5,
+    "select": null,
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "years_experience": 15,
+    "accomplishments": [
+      1,
+      12,
+      19,
+      20
+    ],
+    "projects": []
+  },
+  {
+    "category": "cloud",
+    "date_created": "2025-12-08T19:50:55.944Z",
+    "date_updated": null,
+    "icon": null,
+    "id": 2,
+    "is_current": true,
+    "last_used": null,
+    "name": "AWS",
+    "proficiency_level": 4,
+    "select": null,
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "years_experience": 6,
+    "accomplishments": [
+      2,
+      15
+    ],
+    "projects": []
+  },
+  {
+    "category": "platform",
+    "date_created": "2025-12-08T19:50:55.946Z",
+    "date_updated": null,
+    "icon": null,
+    "id": 1,
+    "is_current": true,
+    "last_used": null,
+    "name": "Directus",
+    "proficiency_level": 4,
+    "select": null,
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "years_experience": 2,
+    "accomplishments": [
+      9
+    ],
+    "projects": []
+  },
+  {
+    "category": "tool",
+    "date_created": "2025-12-08T19:50:55.948Z",
+    "date_updated": null,
+    "icon": null,
+    "id": 11,
+    "is_current": true,
+    "last_used": null,
+    "name": "Figma",
+    "proficiency_level": 4,
+    "select": null,
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "years_experience": 5,
+    "accomplishments": [
+      16
+    ],
+    "projects": []
+  },
+  {
+    "category": "tool",
+    "date_created": "2025-12-08T19:50:55.950Z",
+    "date_updated": null,
+    "icon": null,
+    "id": 9,
+    "is_current": true,
+    "last_used": null,
+    "name": "Google Analytics",
+    "proficiency_level": 4,
+    "select": null,
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "years_experience": 6,
+    "accomplishments": [
+      5,
+      11
+    ],
+    "projects": []
+  },
+  {
+    "category": "language",
+    "date_created": "2025-12-08T19:50:55.952Z",
+    "date_updated": null,
+    "icon": null,
+    "id": 8,
+    "is_current": true,
+    "last_used": null,
+    "name": "JavaScript",
+    "proficiency_level": 4,
+    "select": null,
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "years_experience": 8,
+    "accomplishments": [
+      14
+    ],
+    "projects": []
+  },
+  {
+    "category": "tool",
+    "date_created": "2025-12-08T19:50:55.953Z",
+    "date_updated": null,
+    "icon": null,
+    "id": 10,
+    "is_current": true,
+    "last_used": null,
+    "name": "Jira",
+    "proficiency_level": 5,
+    "select": null,
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "years_experience": 6,
+    "accomplishments": [
+      18
+    ],
+    "projects": []
+  },
+  {
+    "category": "framework",
+    "date_created": "2025-12-08T19:50:55.956Z",
+    "date_updated": null,
+    "icon": null,
+    "id": 4,
+    "is_current": true,
+    "last_used": null,
+    "name": "React",
+    "proficiency_level": 4,
+    "select": null,
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "years_experience": 5,
+    "accomplishments": [
+      3,
+      7,
+      13
+    ],
+    "projects": []
+  },
+  {
+    "category": "database",
+    "date_created": "2025-12-08T19:50:55.958Z",
+    "date_updated": null,
+    "icon": null,
+    "id": 6,
+    "is_current": true,
+    "last_used": null,
+    "name": "SQL",
+    "proficiency_level": 5,
+    "select": null,
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "years_experience": 10,
+    "accomplishments": [
+      6,
+      10,
+      17
+    ],
+    "projects": []
+  },
+  {
+    "category": "language",
+    "date_created": "2025-12-08T19:50:55.960Z",
+    "date_updated": null,
+    "icon": null,
+    "id": 13,
+    "is_current": true,
+    "last_used": null,
+    "name": "TypeScript",
+    "proficiency_level": 4,
+    "select": null,
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "years_experience": 4,
+    "accomplishments": [
+      4,
+      8
+    ],
+    "projects": []
+  }
+]

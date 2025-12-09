@@ -1,0 +1,102 @@
+[
+  {
+    "category": "project_management",
+    "id": 4,
+    "is_core_skill": true,
+    "name": "Agile Methodologies",
+    "proficiency_level": 5,
+    "sort": null,
+    "status": "published",
+    "years_experience": 10
+  },
+  {
+    "category": "business",
+    "id": 3,
+    "is_core_skill": true,
+    "name": "Business Development",
+    "proficiency_level": 5,
+    "sort": null,
+    "status": "published",
+    "years_experience": 15
+  },
+  {
+    "category": "leadership",
+    "id": 10,
+    "is_core_skill": false,
+    "name": "Business Plan Writing",
+    "proficiency_level": 5,
+    "sort": null,
+    "status": "published",
+    "years_experience": 15
+  },
+  {
+    "category": "business",
+    "id": 9,
+    "is_core_skill": true,
+    "name": "Customer Success",
+    "proficiency_level": 5,
+    "sort": null,
+    "status": "published",
+    "years_experience": 10
+  },
+  {
+    "category": "analytics",
+    "id": 7,
+    "is_core_skill": true,
+    "name": "Data Analytics",
+    "proficiency_level": 4,
+    "sort": null,
+    "status": "published",
+    "years_experience": 8
+  },
+  {
+    "category": "creative",
+    "id": 11,
+    "is_core_skill": true,
+    "name": "Animation Direction",
+    "proficiency_level": 5,
+    "sort": null,
+    "status": "published",
+    "years_experience": 12
+  },
+  {
+    "category": "creative",
+    "id": 12,
+    "is_core_skill": true,
+    "name": "Creative Production",
+    "proficiency_level": 5,
+    "sort": null,
+    "status": "published",
+    "years_experience": 15
+  },
+  {
+    "category": "leadership",
+    "id": 6,
+    "is_core_skill": true,
+    "name": "Leadership",
+    "proficiency_level": 5,
+    "sort": null,
+    "status": "published",
+    "years_experience": 15
+  },
+  {
+    "category": "business",
+    "id": 2,
+    "is_core_skill": true,
+    "name": "Product Management",
+    "proficiency_level": 5,
+    "sort": null,
+    "status": "published",
+    "years_experience": 10
+  },
+  {
+    "category": "project_management",
+    "id": 5,
+    "is_core_skill": true,
+    "name": "Project Management",
+    "proficiency_level": 5,
+    "sort": null,
+    "status": "published",
+    "years_experience": 12
+  }
+]

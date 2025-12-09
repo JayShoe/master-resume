@@ -1,0 +1,22 @@
+[
+  {
+    "id": "601db046-54d2-45a7-9eb4-428043625af6",
+    "name": "Administrator",
+    "icon": "verified",
+    "description": "$t:admin_description",
+    "parent": null,
+    "children": null,
+    "policies": null,
+    "users": null
+  },
+  {
+    "id": "662ad6a0-6a8a-4181-8cb9-7a260fa7ae56",
+    "name": "Administrator",
+    "icon": "verified",
+    "description": "$t:admin_description",
+    "parent": null,
+    "children": null,
+    "policies": null,
+    "users": null
+  }
+]

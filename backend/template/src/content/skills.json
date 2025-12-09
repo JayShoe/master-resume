@@ -1,0 +1,198 @@
+[
+  {
+    "category": "project_management",
+    "date_created": "2025-12-08T19:50:55.211Z",
+    "date_updated": null,
+    "id": 4,
+    "is_core_skill": true,
+    "name": "Agile Methodologies",
+    "proficiency_level": 5,
+    "sort": null,
+    "start_date": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishments": [
+      4,
+      10
+    ],
+    "projects": []
+  },
+  {
+    "category": "business",
+    "date_created": "2025-12-08T19:50:55.224Z",
+    "date_updated": null,
+    "id": 3,
+    "is_core_skill": true,
+    "name": "Business Development",
+    "proficiency_level": 5,
+    "sort": null,
+    "start_date": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishments": [
+      22
+    ],
+    "projects": []
+  },
+  {
+    "category": "leadership",
+    "date_created": "2025-12-08T19:50:55.227Z",
+    "date_updated": null,
+    "id": 10,
+    "is_core_skill": false,
+    "name": "Business Plan Writing",
+    "proficiency_level": 5,
+    "sort": null,
+    "start_date": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishments": [
+      24
+    ],
+    "projects": []
+  },
+  {
+    "category": "business",
+    "date_created": "2025-12-08T19:50:55.229Z",
+    "date_updated": null,
+    "id": 9,
+    "is_core_skill": true,
+    "name": "Customer Success",
+    "proficiency_level": 5,
+    "sort": null,
+    "start_date": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishments": [
+      7
+    ],
+    "projects": []
+  },
+  {
+    "category": "analytics",
+    "date_created": "2025-12-08T19:50:55.231Z",
+    "date_updated": null,
+    "id": 7,
+    "is_core_skill": true,
+    "name": "Data Analytics",
+    "proficiency_level": 4,
+    "sort": null,
+    "start_date": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishments": [
+      6,
+      12,
+      17
+    ],
+    "projects": []
+  },
+  {
+    "category": "creative",
+    "date_created": "2025-12-08T19:50:55.233Z",
+    "date_updated": null,
+    "id": 11,
+    "is_core_skill": true,
+    "name": "Animation Direction",
+    "proficiency_level": 5,
+    "sort": null,
+    "start_date": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishments": [
+      21,
+      25
+    ],
+    "projects": []
+  },
+  {
+    "category": "creative",
+    "date_created": "2025-12-08T19:50:55.235Z",
+    "date_updated": null,
+    "id": 12,
+    "is_core_skill": true,
+    "name": "Creative Production",
+    "proficiency_level": 5,
+    "sort": null,
+    "start_date": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishments": [
+      1,
+      11,
+      19,
+      26
+    ],
+    "projects": []
+  },
+  {
+    "category": "leadership",
+    "date_created": "2025-12-08T19:50:55.236Z",
+    "date_updated": null,
+    "id": 6,
+    "is_core_skill": true,
+    "name": "Leadership",
+    "proficiency_level": 5,
+    "sort": null,
+    "start_date": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishments": [
+      2,
+      15,
+      18,
+      20,
+      23
+    ],
+    "projects": []
+  },
+  {
+    "category": "business",
+    "date_created": "2025-12-08T19:50:55.238Z",
+    "date_updated": null,
+    "id": 2,
+    "is_core_skill": true,
+    "name": "Product Management",
+    "proficiency_level": 5,
+    "sort": null,
+    "start_date": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishments": [
+      5,
+      8,
+      13
+    ],
+    "projects": []
+  },
+  {
+    "category": "project_management",
+    "date_created": "2025-12-08T19:50:55.240Z",
+    "date_updated": null,
+    "id": 5,
+    "is_core_skill": true,
+    "name": "Project Management",
+    "proficiency_level": 5,
+    "sort": null,
+    "start_date": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishments": [
+      3,
+      9,
+      14,
+      16
+    ],
+    "projects": []
+  }
+]

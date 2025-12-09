@@ -1,0 +1,62 @@
+[
+  {
+    "description": "The premier cartoon production studio in Toontown",
+    "id": 2,
+    "industry": "Entertainment/Animation",
+    "location": "Hollywood, CA",
+    "logo": null,
+    "name": "Maroon Cartoon Studios",
+    "size": "large",
+    "sort": 1,
+    "status": "published",
+    "website": "www.marooncartoons.example.com"
+  },
+  {
+    "description": "Animation software and tools for the modern creator",
+    "id": 3,
+    "industry": "Technology/SaaS",
+    "location": "Toontown, CA",
+    "logo": null,
+    "name": "ToonTech Solutions",
+    "size": "startup",
+    "sort": 2,
+    "status": "published",
+    "website": "www.toontech.example.com"
+  },
+  {
+    "description": "Full-service animation and entertainment production",
+    "id": 4,
+    "industry": "Entertainment/Technology",
+    "location": "Toontown, CA",
+    "logo": null,
+    "name": "Rabbit Productions LLC",
+    "size": "small",
+    "sort": 3,
+    "status": "published",
+    "website": null
+  },
+  {
+    "description": "Theme park entertainment and live performances",
+    "id": 5,
+    "industry": "Entertainment",
+    "location": "Anaheim, CA",
+    "logo": null,
+    "name": "Acme Entertainment Corp",
+    "size": "large",
+    "sort": 4,
+    "status": "published",
+    "website": "www.acme-entertainment.example.com"
+  },
+  {
+    "description": "Higher education for animated arts",
+    "id": 6,
+    "industry": "Education",
+    "location": "Toontown, CA",
+    "logo": null,
+    "name": "Toontown University",
+    "size": "large",
+    "sort": 5,
+    "status": "published",
+    "website": null
+  }
+]

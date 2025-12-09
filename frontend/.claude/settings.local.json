@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(node:*)",
+      "Bash(npm run dev:*)",
+      "Bash(dir:*)",
+      "Read(//c/github/master-resume/**)",
+      "Bash(npm start)",
+      "Bash(docker-compose:*)",
+      "Bash(rm:*)",
+      "Bash(taskkill:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

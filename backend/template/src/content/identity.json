@@ -1,0 +1,19 @@
+{
+  "date_created": "2025-12-08T18:29:37.998Z",
+  "date_updated": null,
+  "email": "roger.rabbit@toontown.example.com",
+  "first_name": "Roger",
+  "github_url": "https://github.com/rogerrabbit",
+  "id": 1,
+  "last_name": "Rabbit",
+  "linkedin_url": "https://www.linkedin.com/in/rogerrabbit",
+  "location": "Toontown, CA",
+  "phone": "555-TOON-123",
+  "profile_photo": null,
+  "sort": null,
+  "status": "published",
+  "tagline": null,
+  "user_created": null,
+  "user_updated": null,
+  "website_url": "https://www.rogerrabbit.example.com"
+}

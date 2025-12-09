@@ -1,0 +1,24 @@
+module.exports = {
+    port: process.env.PORT || 8055,
+    host: '0.0.0.0',
+    
+    admin: {
+        enabled: true,
+    },
+    
+    db: {
+        client: 'pg',
+        connection: process.env.DB_CONNECTION_STRING,
+    },
+    
+    key: process.env.KEY,
+    secret: process.env.SECRET,
+    
+    auth: {
+        providers: {
+            default: {
+                driver: 'local',
+            },
+        },
+    },
+};

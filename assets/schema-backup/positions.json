@@ -1,0 +1,80 @@
+[
+  {
+    "company": 6,
+    "department": null,
+    "description": "<p>Worked as a teaching assistant while pursuing my degree in Animation Arts. Helped students with animation techniques and software tools.</p>",
+    "employment_type": "part_time",
+    "end_date": "2005-05-31",
+    "id": 6,
+    "is_current": false,
+    "primary_title": "Teaching Assistant",
+    "sort": null,
+    "start_date": "2003-09-01",
+    "status": "published"
+  },
+  {
+    "company": 2,
+    "department": "Animation",
+    "description": "<p>Started my career as a cartoon performer at the legendary Maroon Cartoon Studios. Starred in numerous animated shorts alongside Baby Herman, bringing laughter to audiences worldwide.</p>",
+    "employment_type": "full_time",
+    "end_date": "2012-12-31",
+    "id": 7,
+    "is_current": false,
+    "primary_title": "Lead Cartoon Performer",
+    "sort": null,
+    "start_date": "2005-06-01",
+    "status": "published"
+  },
+  {
+    "company": 2,
+    "department": "Production",
+    "description": "<p>Transitioned from performing to directing, overseeing the creative vision for animated shorts. Managed teams of animators and coordinated with studio executives on production schedules.</p>",
+    "employment_type": "full_time",
+    "end_date": "2015-06-30",
+    "id": 8,
+    "is_current": false,
+    "primary_title": "Animation Director",
+    "sort": null,
+    "start_date": "2013-01-01",
+    "status": "published"
+  },
+  {
+    "company": 4,
+    "department": null,
+    "description": "<p>Founded my own production company to create original animated content. Handled all aspects of the business from creative development to client relations and financial management.</p>",
+    "employment_type": "full_time",
+    "end_date": "2020-12-31",
+    "id": 4,
+    "is_current": false,
+    "primary_title": "Founder & Executive Producer",
+    "sort": null,
+    "start_date": "2015-07-01",
+    "status": "published"
+  },
+  {
+    "company": 5,
+    "department": "Entertainment",
+    "description": "<p>Managed live entertainment operations including character performances, show scheduling, and guest experience optimization across multiple venue locations.</p>",
+    "employment_type": "full_time",
+    "end_date": "2022-12-31",
+    "id": 5,
+    "is_current": false,
+    "primary_title": "Entertainment Operations Manager",
+    "sort": null,
+    "start_date": "2021-01-01",
+    "status": "published"
+  },
+  {
+    "company": 3,
+    "department": null,
+    "description": "<p>Leading product strategy and development for animation software tools. Working with engineering teams to build next-generation creative tools for animators and content creators worldwide.</p>",
+    "employment_type": "full_time",
+    "end_date": null,
+    "id": 2,
+    "is_current": true,
+    "primary_title": "Product Manager",
+    "sort": null,
+    "start_date": "2023-01-01",
+    "status": "published"
+  }
+]

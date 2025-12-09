@@ -1,0 +1,221 @@
+[
+  {
+    "bookmark": null,
+    "collection": "master_resume_system_docs",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "artifact_type": 160,
+          "content": 160,
+          "status": 33.636383056640625,
+          "title": 160
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "status",
+          "content",
+          "artifact_type",
+          "title"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": "b3b5747c-d536-4de8-aa83-4460d33bf334",
+    "search": null,
+    "user": null
+  },
+  {
+    "bookmark": null,
+    "collection": "companies",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "industry": 292.727294921875,
+          "name": 160,
+          "size": 160,
+          "status": 32
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "status",
+          "name",
+          "industry",
+          "size"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": "b3b5747c-d536-4de8-aa83-4460d33bf334",
+    "search": null,
+    "user": null
+  },
+  {
+    "bookmark": null,
+    "collection": "professional_summaries",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "status": 32,
+          "title": 485.45452880859375
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "status",
+          "title"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": "b3b5747c-d536-4de8-aa83-4460d33bf334",
+    "search": null,
+    "user": null
+  },
+  {
+    "bookmark": null,
+    "collection": "directus_presets",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "layout": "tabular",
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "bookmark": 200,
+          "collection": 200,
+          "role": 200,
+          "user": 200
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "bookmark",
+          "collection",
+          "user",
+          "role",
+          "role.name"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": "b3b5747c-d536-4de8-aa83-4460d33bf334",
+    "search": null,
+    "user": null
+  },
+  {
+    "bookmark": null,
+    "collection": "positions",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "department": 220,
+          "primary_title": 340.9090576171875,
+          "start_date": 160,
+          "status": 32
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "status",
+          "primary_title",
+          "department",
+          "start_date"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": "b3b5747c-d536-4de8-aa83-4460d33bf334",
+    "search": null,
+    "user": null
+  },
+  {
+    "bookmark": null,
+    "collection": "skills",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "category": 164.54547119140625,
+          "name": 329.0909423828125,
+          "proficiency_level": 160,
+          "status": 32
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "status",
+          "name",
+          "category",
+          "proficiency_level"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": "b3b5747c-d536-4de8-aa83-4460d33bf334",
+    "search": null,
+    "user": null
+  },
+  {
+    "bookmark": null,
+    "collection": "accomplishments",
+    "color": null,
+    "filter": null,
+    "icon": "bookmark",
+    "layout": null,
+    "layout_options": {
+      "tabular": {
+        "widths": {
+          "is_featured": 132.727294921875,
+          "primary_title": 628.1817626953125,
+          "status": 32
+        }
+      }
+    },
+    "layout_query": {
+      "tabular": {
+        "fields": [
+          "status",
+          "is_featured",
+          "primary_title"
+        ]
+      }
+    },
+    "refresh_interval": null,
+    "role": "b3b5747c-d536-4de8-aa83-4460d33bf334",
+    "search": null,
+    "user": null
+  }
+]

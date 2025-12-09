@@ -1,0 +1,58 @@
+[
+  {
+    "description": "<p>Cloud-based animation software that enables real-time collaboration between animators worldwide. Features include frame-by-frame editing, automatic lip-sync, and AI-assisted in-betweening.</p>",
+    "end_date": null,
+    "github_url": "https://github.com/rogerrabbit/tooncloud",
+    "id": 1,
+    "is_featured": true,
+    "name": "ToonCloud Animation Platform",
+    "project_type": "product",
+    "project_url": "https://tooncloud.example.com",
+    "role": "Product Manager",
+    "sort": null,
+    "start_date": "2023-01-01",
+    "status": "published"
+  },
+  {
+    "description": "<p>Custom production management system for animation studios. Tracks projects from storyboard through final render with integrated asset management and team scheduling.</p>",
+    "end_date": "2019-06-01",
+    "github_url": null,
+    "id": 2,
+    "is_featured": true,
+    "name": "Animation Studio Manager",
+    "project_type": "internal_tool",
+    "project_url": null,
+    "role": "Product Owner & Designer",
+    "sort": null,
+    "start_date": "2017-01-01",
+    "status": "published"
+  },
+  {
+    "description": "<p>Mobile app for creating short animated clips. Features intuitive touch-based drawing tools and one-tap sharing to social media platforms.</p>",
+    "end_date": "2018-12-01",
+    "github_url": null,
+    "id": 3,
+    "is_featured": true,
+    "name": "ToonSketch Mobile App",
+    "project_type": "product",
+    "project_url": null,
+    "role": "Product Manager",
+    "sort": null,
+    "start_date": "2016-06-01",
+    "status": "published"
+  },
+  {
+    "description": "<p>Portfolio website showcasing animation work and production services. Built with React and features an interactive demo reel player.</p>",
+    "end_date": "2016-03-01",
+    "github_url": null,
+    "id": 4,
+    "is_featured": true,
+    "name": "Rabbit Productions Website",
+    "project_type": "website",
+    "project_url": "https://rabbitproductions.example.com",
+    "role": "Designer & Developer",
+    "sort": null,
+    "start_date": "2015-09-01",
+    "status": "published"
+  }
+]

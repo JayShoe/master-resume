@@ -1,0 +1,1469 @@
+[
+  {
+    "collection": "accomplishments_projects",
+    "field": "projects_id",
+    "related_collection": "projects",
+    "schema": {
+      "constraint_name": "accomplishments_projects_projects_id_foreign",
+      "table": "accomplishments_projects",
+      "column": "projects_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "projects",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "accomplishments_projects",
+      "many_field": "projects_id",
+      "one_collection": "projects",
+      "one_field": "accomplishments",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "accomplishments_id",
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "accomplishments_projects",
+    "field": "accomplishments_id",
+    "related_collection": "accomplishments",
+    "schema": {
+      "constraint_name": "accomplishments_projects_accomplishments_id_foreign",
+      "table": "accomplishments_projects",
+      "column": "accomplishments_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "accomplishments",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "accomplishments_projects",
+      "many_field": "accomplishments_id",
+      "one_collection": "accomplishments",
+      "one_field": "related_projects",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "projects_id",
+      "sort_field": "sort",
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "companies",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "companies_user_updated_foreign",
+      "table": "companies",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "companies",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "companies",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "companies_user_created_foreign",
+      "table": "companies",
+      "column": "user_created",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "companies",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "companies",
+    "field": "logo",
+    "related_collection": "directus_files",
+    "schema": {
+      "constraint_name": "companies_logo_foreign",
+      "table": "companies",
+      "column": "logo",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_files",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "companies",
+      "many_field": "logo",
+      "one_collection": "directus_files",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "accomplishments_skills",
+    "field": "skills_id",
+    "related_collection": "skills",
+    "schema": {
+      "constraint_name": "accomplishments_skills_skills_id_foreign",
+      "table": "accomplishments_skills",
+      "column": "skills_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "skills",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "accomplishments_skills",
+      "many_field": "skills_id",
+      "one_collection": "skills",
+      "one_field": "accomplishments",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "accomplishments_id",
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "accomplishments_skills",
+    "field": "accomplishments_id",
+    "related_collection": "accomplishments",
+    "schema": {
+      "constraint_name": "accomplishments_skills_accomplishments_id_foreign",
+      "table": "accomplishments_skills",
+      "column": "accomplishments_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "accomplishments",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "accomplishments_skills",
+      "many_field": "accomplishments_id",
+      "one_collection": "accomplishments",
+      "one_field": "related_skills",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "skills_id",
+      "sort_field": "sort",
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "cover_letters",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "cover_letters_user_updated_foreign",
+      "table": "cover_letters",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "cover_letters",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "cover_letters",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "cover_letters_user_created_foreign",
+      "table": "cover_letters",
+      "column": "user_created",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "cover_letters",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "cover_letters",
+    "field": "parent_cover_letter",
+    "related_collection": "cover_letters",
+    "schema": {
+      "constraint_name": "cover_letters_parent_cover_letter_foreign",
+      "table": "cover_letters",
+      "column": "parent_cover_letter",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "cover_letters",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "cover_letters",
+      "many_field": "parent_cover_letter",
+      "one_collection": "cover_letters",
+      "one_field": "cover_letters",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "accomplishments",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "accomplishments_user_updated_foreign",
+      "table": "accomplishments",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "accomplishments",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "accomplishments",
+    "field": "position",
+    "related_collection": "positions",
+    "schema": {
+      "constraint_name": "accomplishments_position_foreign",
+      "table": "accomplishments",
+      "column": "position",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "positions",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "accomplishments",
+      "many_field": "position",
+      "one_collection": "positions",
+      "one_field": "accomplishments",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "accomplishments_technologies",
+    "field": "technologies_id",
+    "related_collection": "technologies",
+    "schema": {
+      "constraint_name": "accomplishments_technologies_technologies_id_foreign",
+      "table": "accomplishments_technologies",
+      "column": "technologies_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "technologies",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "accomplishments_technologies",
+      "many_field": "technologies_id",
+      "one_collection": "technologies",
+      "one_field": "accomplishments",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "accomplishments_id",
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "accomplishments_technologies",
+    "field": "accomplishments_id",
+    "related_collection": "accomplishments",
+    "schema": {
+      "constraint_name": "accomplishments_technologies_accomplishments_id_foreign",
+      "table": "accomplishments_technologies",
+      "column": "accomplishments_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "accomplishments",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "accomplishments_technologies",
+      "many_field": "accomplishments_id",
+      "one_collection": "accomplishments",
+      "one_field": "related_technologies",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "technologies_id",
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "certifications",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "certifications_user_updated_foreign",
+      "table": "certifications",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "certifications",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "identity",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "identity_user_updated_foreign",
+      "table": "identity",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "identity",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "identity",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "identity_user_created_foreign",
+      "table": "identity",
+      "column": "user_created",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "identity",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "identity",
+    "field": "profile_photo",
+    "related_collection": "directus_files",
+    "schema": {
+      "constraint_name": "identity_profile_photo_foreign",
+      "table": "identity",
+      "column": "profile_photo",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_files",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "identity",
+      "many_field": "profile_photo",
+      "one_collection": "directus_files",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "job_applications",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "job_applications_user_updated_foreign",
+      "table": "job_applications",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "job_applications",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "job_applications",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "job_applications_user_created_foreign",
+      "table": "job_applications",
+      "column": "user_created",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "job_applications",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "job_applications",
+    "field": "resume_used",
+    "related_collection": "resumes",
+    "schema": {
+      "constraint_name": "job_applications_resume_used_foreign",
+      "table": "job_applications",
+      "column": "resume_used",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "resumes",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "job_applications",
+      "many_field": "resume_used",
+      "one_collection": "resumes",
+      "one_field": "job_applications",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "job_applications",
+    "field": "cover_letter_used_",
+    "related_collection": "cover_letters",
+    "schema": {
+      "constraint_name": "job_applications_cover_letter_used__foreign",
+      "table": "job_applications",
+      "column": "cover_letter_used_",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "cover_letters",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "job_applications",
+      "many_field": "cover_letter_used_",
+      "one_collection": "cover_letters",
+      "one_field": "job_applications",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "master_resume_system_docs",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "master_resume_system_docs_user_updated_foreign",
+      "table": "master_resume_system_docs",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "master_resume_system_docs",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "master_resume_system_docs",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "master_resume_system_docs_user_created_foreign",
+      "table": "master_resume_system_docs",
+      "column": "user_created",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "master_resume_system_docs",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "professional_summaries",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "professional_summaries_user_updated_foreign",
+      "table": "professional_summaries",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "professional_summaries",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "professional_summaries",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "professional_summaries_user_created_foreign",
+      "table": "professional_summaries",
+      "column": "user_created",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "professional_summaries",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "projects",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "projects_user_updated_foreign",
+      "table": "projects",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "projects",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "projects_companies",
+    "field": "projects_id",
+    "related_collection": "projects",
+    "schema": {
+      "constraint_name": "projects_companies_projects_id_foreign",
+      "table": "projects_companies",
+      "column": "projects_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "projects",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "projects_companies",
+      "many_field": "projects_id",
+      "one_collection": "projects",
+      "one_field": "related_companies",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "companies_id",
+      "sort_field": "sort",
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "projects_companies",
+    "field": "companies_id",
+    "related_collection": "companies",
+    "schema": {
+      "constraint_name": "projects_companies_companies_id_foreign",
+      "table": "projects_companies",
+      "column": "companies_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "companies",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "projects_companies",
+      "many_field": "companies_id",
+      "one_collection": "companies",
+      "one_field": "projects",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "projects_id",
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "education_accomplishments",
+    "field": "education_id",
+    "related_collection": "education",
+    "schema": {
+      "constraint_name": "education_accomplishments_education_id_foreign",
+      "table": "education_accomplishments",
+      "column": "education_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "education",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "education_accomplishments",
+      "many_field": "education_id",
+      "one_collection": "education",
+      "one_field": "accomplishments",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "accomplishments_id",
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "education_accomplishments",
+    "field": "accomplishments_id",
+    "related_collection": "accomplishments",
+    "schema": {
+      "constraint_name": "education_accomplishments_accomplishments_id_foreign",
+      "table": "education_accomplishments",
+      "column": "accomplishments_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "accomplishments",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "education_accomplishments",
+      "many_field": "accomplishments_id",
+      "one_collection": "accomplishments",
+      "one_field": "education",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "education_id",
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "positions",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "positions_user_updated_foreign",
+      "table": "positions",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "positions",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "positions",
+    "field": "company",
+    "related_collection": "companies",
+    "schema": {
+      "constraint_name": "positions_company_foreign",
+      "table": "positions",
+      "column": "company",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "companies",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "positions",
+      "many_field": "company",
+      "one_collection": "companies",
+      "one_field": "positions",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "education",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "education_user_updated_foreign",
+      "table": "education",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "education",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "education_related_items",
+    "field": "education_id",
+    "related_collection": "education",
+    "schema": {
+      "constraint_name": "education_related_items_education_id_foreign",
+      "table": "education_related_items",
+      "column": "education_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "education",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "education_related_items",
+      "many_field": "education_id",
+      "one_collection": "education",
+      "one_field": "related_items",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "item",
+      "sort_field": "sort",
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "projects_positions",
+    "field": "projects_id",
+    "related_collection": "projects",
+    "schema": {
+      "constraint_name": "projects_positions_projects_id_foreign",
+      "table": "projects_positions",
+      "column": "projects_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "projects",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "projects_positions",
+      "many_field": "projects_id",
+      "one_collection": "projects",
+      "one_field": "related_positions",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "positions_id",
+      "sort_field": "sort",
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "projects_positions",
+    "field": "positions_id",
+    "related_collection": "positions",
+    "schema": {
+      "constraint_name": "projects_positions_positions_id_foreign",
+      "table": "projects_positions",
+      "column": "positions_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "positions",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "projects_positions",
+      "many_field": "positions_id",
+      "one_collection": "positions",
+      "one_field": "projects",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "projects_id",
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "projects_skills",
+    "field": "skills_id",
+    "related_collection": "skills",
+    "schema": {
+      "constraint_name": "projects_skills_skills_id_foreign",
+      "table": "projects_skills",
+      "column": "skills_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "skills",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "projects_skills",
+      "many_field": "skills_id",
+      "one_collection": "skills",
+      "one_field": "projects",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "projects_id",
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "projects_skills",
+    "field": "projects_id",
+    "related_collection": "projects",
+    "schema": {
+      "constraint_name": "projects_skills_projects_id_foreign",
+      "table": "projects_skills",
+      "column": "projects_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "projects",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "projects_skills",
+      "many_field": "projects_id",
+      "one_collection": "projects",
+      "one_field": "skills_demonstrated",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "skills_id",
+      "sort_field": "sort",
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "projects_technologies",
+    "field": "technologies_id",
+    "related_collection": "technologies",
+    "schema": {
+      "constraint_name": "projects_technologies_technologies_id_foreign",
+      "table": "projects_technologies",
+      "column": "technologies_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "technologies",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "projects_technologies",
+      "many_field": "technologies_id",
+      "one_collection": "technologies",
+      "one_field": "projects",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "projects_id",
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "projects_technologies",
+    "field": "projects_id",
+    "related_collection": "projects",
+    "schema": {
+      "constraint_name": "projects_technologies_projects_id_foreign",
+      "table": "projects_technologies",
+      "column": "projects_id",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "projects",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "projects_technologies",
+      "many_field": "projects_id",
+      "one_collection": "projects",
+      "one_field": "technologies_used",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": "technologies_id",
+      "sort_field": "sort",
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "technologies",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "technologies_user_updated_foreign",
+      "table": "technologies",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "technologies",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "resumes",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "resumes_user_updated_foreign",
+      "table": "resumes",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "resumes",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "resumes",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "resumes_user_created_foreign",
+      "table": "resumes",
+      "column": "user_created",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "resumes",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "resumes",
+    "field": "parent_resume",
+    "related_collection": "resumes",
+    "schema": {
+      "constraint_name": "resumes_parent_resume_foreign",
+      "table": "resumes",
+      "column": "parent_resume",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "resumes",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "resumes",
+      "many_field": "parent_resume",
+      "one_collection": "resumes",
+      "one_field": "resumes",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "accomplishment_variations",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "accomplishment_variations_user_updated_foreign",
+      "table": "accomplishment_variations",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "accomplishment_variations",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "accomplishment_variations",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "accomplishment_variations_user_created_foreign",
+      "table": "accomplishment_variations",
+      "column": "user_created",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "accomplishment_variations",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "accomplishment_variations",
+    "field": "accomplishment",
+    "related_collection": "accomplishments",
+    "schema": {
+      "constraint_name": "accomplishment_variations_accomplishment_foreign",
+      "table": "accomplishment_variations",
+      "column": "accomplishment",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "accomplishments",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "SET NULL"
+    },
+    "meta": {
+      "many_collection": "accomplishment_variations",
+      "many_field": "accomplishment",
+      "one_collection": "accomplishments",
+      "one_field": "accomplishment_variations",
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "skills",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "skills_user_updated_foreign",
+      "table": "skills",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "skills",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "system_settings",
+    "field": "user_updated",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "system_settings_user_updated_foreign",
+      "table": "system_settings",
+      "column": "user_updated",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "system_settings",
+      "many_field": "user_updated",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "system_settings",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": {
+      "constraint_name": "system_settings_user_created_foreign",
+      "table": "system_settings",
+      "column": "user_created",
+      "foreign_key_schema": "public",
+      "foreign_key_table": "directus_users",
+      "foreign_key_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    "meta": {
+      "many_collection": "system_settings",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "accomplishments",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": null,
+    "meta": {
+      "many_collection": "accomplishments",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "certifications",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": null,
+    "meta": {
+      "many_collection": "certifications",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "education",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": null,
+    "meta": {
+      "many_collection": "education",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "education_related_items",
+    "field": "item",
+    "related_collection": null,
+    "schema": null,
+    "meta": {
+      "many_collection": "education_related_items",
+      "many_field": "item",
+      "one_collection": null,
+      "one_field": null,
+      "one_collection_field": "collection",
+      "one_allowed_collections": [
+        "projects",
+        "accomplishments",
+        "skills",
+        "technologies"
+      ],
+      "junction_field": "education_id",
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "positions",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": null,
+    "meta": {
+      "many_collection": "positions",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "projects",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": null,
+    "meta": {
+      "many_collection": "projects",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "skills",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": null,
+    "meta": {
+      "many_collection": "skills",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  },
+  {
+    "collection": "technologies",
+    "field": "user_created",
+    "related_collection": "directus_users",
+    "schema": null,
+    "meta": {
+      "many_collection": "technologies",
+      "many_field": "user_created",
+      "one_collection": "directus_users",
+      "one_field": null,
+      "one_collection_field": null,
+      "one_allowed_collections": null,
+      "junction_field": null,
+      "sort_field": null,
+      "one_deselect_action": "nullify"
+    }
+  }
+]

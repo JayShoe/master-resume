@@ -1,0 +1,102 @@
+[
+  {
+    "accomplishments_id": 1,
+    "id": 1,
+    "technologies_id": 12
+  },
+  {
+    "accomplishments_id": 2,
+    "id": 2,
+    "technologies_id": 2
+  },
+  {
+    "accomplishments_id": 2,
+    "id": 3,
+    "technologies_id": 4
+  },
+  {
+    "accomplishments_id": 2,
+    "id": 4,
+    "technologies_id": 13
+  },
+  {
+    "accomplishments_id": 3,
+    "id": 5,
+    "technologies_id": 9
+  },
+  {
+    "accomplishments_id": 3,
+    "id": 6,
+    "technologies_id": 6
+  },
+  {
+    "accomplishments_id": 4,
+    "id": 7,
+    "technologies_id": 4
+  },
+  {
+    "accomplishments_id": 4,
+    "id": 8,
+    "technologies_id": 13
+  },
+  {
+    "accomplishments_id": 4,
+    "id": 9,
+    "technologies_id": 1
+  },
+  {
+    "accomplishments_id": 4,
+    "id": 10,
+    "technologies_id": 6
+  },
+  {
+    "accomplishments_id": 5,
+    "id": 11,
+    "technologies_id": 9
+  },
+  {
+    "accomplishments_id": 5,
+    "id": 12,
+    "technologies_id": 12
+  },
+  {
+    "accomplishments_id": 6,
+    "id": 13,
+    "technologies_id": 4
+  },
+  {
+    "accomplishments_id": 6,
+    "id": 14,
+    "technologies_id": 8
+  },
+  {
+    "accomplishments_id": 6,
+    "id": 15,
+    "technologies_id": 2
+  },
+  {
+    "accomplishments_id": 6,
+    "id": 16,
+    "technologies_id": 11
+  },
+  {
+    "accomplishments_id": 7,
+    "id": 17,
+    "technologies_id": 6
+  },
+  {
+    "accomplishments_id": 7,
+    "id": 18,
+    "technologies_id": 10
+  },
+  {
+    "accomplishments_id": 8,
+    "id": 19,
+    "technologies_id": 12
+  },
+  {
+    "accomplishments_id": 10,
+    "id": 20,
+    "technologies_id": 12
+  }
+]

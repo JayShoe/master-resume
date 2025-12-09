@@ -1,0 +1,32 @@
+[
+  {
+    "id": "2a3e87cd-575b-41a2-993a-473988d3d70b",
+    "first_name": "Admin",
+    "last_name": "User",
+    "email": "admin@example.com",
+    "password": "**********",
+    "location": null,
+    "title": null,
+    "description": null,
+    "tags": null,
+    "avatar": null,
+    "language": null,
+    "tfa_secret": null,
+    "status": "active",
+    "role": "662ad6a0-6a8a-4181-8cb9-7a260fa7ae56",
+    "token": null,
+    "last_access": "2025-12-09T17:58:03.546Z",
+    "last_page": "/content/technologies",
+    "provider": "default",
+    "external_identifier": null,
+    "auth_data": null,
+    "email_notifications": true,
+    "appearance": null,
+    "theme_dark": null,
+    "theme_light": null,
+    "theme_light_overrides": null,
+    "theme_dark_overrides": null,
+    "text_direction": "auto",
+    "policies": null
+  }
+]

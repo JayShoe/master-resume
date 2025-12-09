@@ -1,0 +1,7 @@
+/node_modules
+.env
+data
+database
+# Uploads should not be tracked - users provide their own
+uploads/*
+!uploads/.gitkeep

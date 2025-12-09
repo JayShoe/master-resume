@@ -1,0 +1,297 @@
+[
+  {
+    "accomplishment_type": "award",
+    "approximate_date": null,
+    "date_achieved": "2010-03-15",
+    "date_created": "2025-12-08T19:50:46.011Z",
+    "date_updated": null,
+    "evidence_links": null,
+    "id": 1,
+    "impact_metrics": null,
+    "is_featured": true,
+    "position": 7,
+    "primary_description": "<p>Won the prestigious Golden Carrot Award for Best Comedic Performance in an Animated Short at the Toontown Film Festival.</p>",
+    "primary_title": "Golden Carrot Award - Best Comedic Performance",
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishment_variations": [],
+    "education": [],
+    "related_projects": [],
+    "related_skills": [
+      1,
+      2
+    ],
+    "related_technologies": [
+      1
+    ]
+  },
+  {
+    "accomplishment_type": "initiative",
+    "approximate_date": null,
+    "date_achieved": "2024-06-01",
+    "date_created": "2025-12-08T19:50:46.017Z",
+    "date_updated": null,
+    "evidence_links": null,
+    "id": 2,
+    "impact_metrics": "Reduced animation render times by 40%",
+    "is_featured": true,
+    "position": 2,
+    "primary_description": "<p>Spearheaded the implementation of a cloud-based rendering pipeline, reducing animation render times by 40% and enabling real-time collaboration across global teams.</p>",
+    "primary_title": "Implemented Cloud Rendering Pipeline",
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishment_variations": [],
+    "education": [],
+    "related_projects": [],
+    "related_skills": [
+      3,
+      4
+    ],
+    "related_technologies": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "accomplishment_type": "achievement",
+    "approximate_date": null,
+    "date_achieved": "2023-09-01",
+    "date_created": "2025-12-08T19:50:46.020Z",
+    "date_updated": null,
+    "evidence_links": null,
+    "id": 3,
+    "impact_metrics": "25% increase in user retention",
+    "is_featured": true,
+    "position": 2,
+    "primary_description": "<p>Increased user retention rates by 25% through improved onboarding flows and personalized feature recommendations.</p>",
+    "primary_title": "Increased User Retention",
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishment_variations": [],
+    "education": [],
+    "related_projects": [],
+    "related_skills": [
+      5,
+      6,
+      7
+    ],
+    "related_technologies": [
+      5,
+      6
+    ]
+  },
+  {
+    "accomplishment_type": "project",
+    "approximate_date": null,
+    "date_achieved": "2018-01-01",
+    "date_created": "2025-12-08T19:50:46.023Z",
+    "date_updated": null,
+    "evidence_links": null,
+    "id": 4,
+    "impact_metrics": "Streamlined production workflow for 50+ animators",
+    "is_featured": true,
+    "position": 4,
+    "primary_description": "<p>Designed and implemented a custom project management system for animation production, streamlining workflows for over 50 animators and reducing project delivery times by 30%.</p>",
+    "primary_title": "Built Animation Production Management System",
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishment_variations": [],
+    "education": [],
+    "related_projects": [],
+    "related_skills": [
+      8,
+      9,
+      10
+    ],
+    "related_technologies": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "accomplishment_type": "achievement",
+    "approximate_date": null,
+    "date_achieved": "2019-01-01",
+    "date_created": "2025-12-08T19:50:46.027Z",
+    "date_updated": null,
+    "evidence_links": null,
+    "id": 5,
+    "impact_metrics": "35% increase in audience engagement",
+    "is_featured": true,
+    "position": null,
+    "primary_description": "<p>Increased audience engagement by 35% through innovative storytelling techniques and interactive content formats.</p>",
+    "primary_title": "Increased Audience Engagement",
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishment_variations": [],
+    "education": [],
+    "related_projects": [],
+    "related_skills": [
+      11,
+      12
+    ],
+    "related_technologies": [
+      11,
+      12
+    ]
+  },
+  {
+    "accomplishment_type": "project",
+    "approximate_date": null,
+    "date_achieved": "2017-01-01",
+    "date_created": "2025-12-08T19:50:46.029Z",
+    "date_updated": null,
+    "evidence_links": null,
+    "id": 6,
+    "impact_metrics": "50,000+ downloads in first month",
+    "is_featured": true,
+    "position": 4,
+    "primary_description": "<p>Led product development for a mobile animation app, achieving 50,000+ downloads in the first month and a 4.8-star rating on app stores.</p>",
+    "primary_title": "Launched Mobile Animation App",
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishment_variations": [],
+    "education": [],
+    "related_projects": [],
+    "related_skills": [
+      13,
+      14,
+      15
+    ],
+    "related_technologies": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "accomplishment_type": "process_improvement",
+    "approximate_date": null,
+    "date_achieved": "2022-01-01",
+    "date_created": "2025-12-08T19:50:46.031Z",
+    "date_updated": null,
+    "evidence_links": null,
+    "id": 7,
+    "impact_metrics": "20% improvement in show scheduling efficiency",
+    "is_featured": true,
+    "position": 5,
+    "primary_description": "<p>Optimized entertainment scheduling system, improving show scheduling efficiency by 20% and reducing guest wait times.</p>",
+    "primary_title": "Improved Entertainment Scheduling",
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishment_variations": [],
+    "education": [],
+    "related_projects": [],
+    "related_skills": [
+      16,
+      17,
+      18
+    ],
+    "related_technologies": [
+      17,
+      18
+    ]
+  },
+  {
+    "accomplishment_type": "achievement",
+    "approximate_date": null,
+    "date_achieved": "2014-06-01",
+    "date_created": "2025-12-08T19:50:46.035Z",
+    "date_updated": null,
+    "evidence_links": null,
+    "id": 8,
+    "impact_metrics": "3 million views on premiere episode",
+    "is_featured": true,
+    "position": 5,
+    "primary_description": "<p>Directed an animated series that achieved 3 million views on its premiere episode, becoming the most-watched debut in studio history.</p>",
+    "primary_title": "Record-Breaking Series Premiere",
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishment_variations": [],
+    "education": [],
+    "related_projects": [],
+    "related_skills": [
+      19,
+      20,
+      21
+    ],
+    "related_technologies": [
+      19
+    ]
+  },
+  {
+    "accomplishment_type": "achievement",
+    "approximate_date": null,
+    "date_achieved": "2015-07-01",
+    "date_created": "2025-12-08T19:50:46.037Z",
+    "date_updated": null,
+    "evidence_links": null,
+    "id": 9,
+    "impact_metrics": null,
+    "is_featured": false,
+    "position": 7,
+    "primary_description": "<p>Founded Rabbit Productions LLC, establishing a full-service animation production company.</p>",
+    "primary_title": "Founded Rabbit Productions LLC",
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishment_variations": [],
+    "education": [],
+    "related_projects": [],
+    "related_skills": [
+      22,
+      23,
+      24
+    ],
+    "related_technologies": []
+  },
+  {
+    "accomplishment_type": "award",
+    "approximate_date": null,
+    "date_achieved": "2005-05-01",
+    "date_created": "2025-12-08T19:50:46.039Z",
+    "date_updated": null,
+    "evidence_links": null,
+    "id": 10,
+    "impact_metrics": null,
+    "is_featured": true,
+    "position": null,
+    "primary_description": "<p>Graduated with honors from Toontown University, receiving the Dean's Award for Excellence in Animation Arts.</p>",
+    "primary_title": "Dean's Award for Excellence in Animation Arts",
+    "sort": null,
+    "status": "published",
+    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
+    "user_updated": null,
+    "accomplishment_variations": [],
+    "education": [],
+    "related_projects": [],
+    "related_skills": [
+      25,
+      26
+    ],
+    "related_technologies": [
+      20
+    ]
+  }
+]

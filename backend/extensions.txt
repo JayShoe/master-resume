@@ -1,0 +1,28 @@
+# Installing contributed/custom extensions through pnpm on Railway
+RUN pnpm install directus-extension-computed-interface@1.9.0
+RUN pnpm install freekrai/directus-extension-upsert@1.0.2
+RUN pnpm install dimitrov-adrian/directus-extension-wpslug-interface@1.1.0
+RUN pnpm install pg
+RUN pnpm install formfcw/directus-extension-flexible-editor@1.8.3
+RUN pnpm install @directus-labs/simple-list-interface@1.0.0
+RUN pnpm install @directus-labs/migration-bundle@1.0.1
+
+# Excel importer from GitHub (shorthand = https://github.com/FazCodeFR/directus-extension-import-excel)
+RUN pnpm install FazCodeFR/directus-extension-import-excel
+
+RUN pnpm install directus-extension-flow-manager@1.4.7
+RUN pnpm install directus-extension-grid-layout@1.1.2
+RUN pnpm install directus-extension-schema-management-module@2.0.1
+RUN pnpm install directus-extension-inline-form-interface@1.2.0
+RUN pnpm install @directus-labs/ai-image-generation-operation@1.0.2
+RUN pnpm install @directus-labs/experimental-m2a-interface@1.1.0
+RUN pnpm install @directus-labs/super-header-interface@1.1.1
+RUN pnpm install @directus-labs/inline-repeater-interface@1.0.0
+RUN pnpm install @directus-labs/seo-plugin@1.0.1
+RUN pnpm install directus-extension-wpslug-interface@1.1.0
+RUN pnpm install @directus-labs/ai-writer-operation@1.4.0
+RUN pnpm install @directus-labs/card-select-interfaces@1.0.0
+RUN pnpm install @directus-labs/command-palette-module@1.1.0
+RUN pnpm install directus-extension-group-tabs-interface@2.1.0
+RUN pnpm install @directus-labs/liquidjs-operation@1.1.0
+RUN pnpm install directus-extension-editable-layout@1.1.1

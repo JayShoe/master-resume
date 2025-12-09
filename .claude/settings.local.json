@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd /c \"dir c:\\github\\master-resume\\backend\\uploads\")",
+      "Bash(git branch:*)",
+      "Bash(dir:*)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "enableAllProjectMcpServers": true
+}

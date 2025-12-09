@@ -1,0 +1,15 @@
+<svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (optional - remove for transparent) -->
+  <rect width="400" height="120" fill="#1e293b" rx="8"/>
+  
+  <!-- Icon -->
+  <rect x="20" y="40" width="40" height="40" rx="5" fill="#0ea5e9"/>
+  <path d="M28 68 L28 52 L35 62 L42 52 L42 68" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="52" cy="48" r="5" fill="#fbbf24"/>
+  
+  <!-- Wordmark -->
+  <text x="75" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="white">master<tspan fill="#94a3b8">-resume</tspan></text>
+  
+  <!-- Tagline -->
+  <text x="75" y="88" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#64748b" letter-spacing="2">YOUR CAREER AS A QUERYABLE DATASET</text>
+</svg>

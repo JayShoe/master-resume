@@ -1,0 +1,418 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* Clean reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.6;
+  color: #374151;
+  background: #ffffff;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/* Simple, clean typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111827;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  line-height: 1.6;
+  color: #6b7280;
+  font-size: 16px;
+}
+
+/* Clean button styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: #3b82f6;
+  color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+  background: #2563eb;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+.btn-secondary {
+  background: #f9fafb;
+  color: #374151;
+  border: 1px solid #e5e7eb;
+}
+
+.btn-secondary:hover {
+  background: #f3f4f6;
+  border-color: #d1d5db;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #3b82f6;
+  border: 2px solid #3b82f6;
+}
+
+.btn-outline:hover {
+  background: #3b82f6;
+  color: white;
+}
+
+/* Clean container system */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Section spacing */
+.section {
+  padding: 80px 0;
+}
+
+.section-sm {
+  padding: 60px 0;
+}
+
+/* Card system */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 32px;
+  border: 1px solid #f3f4f6;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border-color: #e0e7ff;
+}
+
+/* Grid system */
+.grid {
+  display: grid;
+  gap: 32px;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Responsive grid */
+@media (max-width: 1024px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .card {
+    padding: 24px;
+  }
+  
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+  
+  body {
+    font-size: 15px;
+  }
+  
+  p {
+    font-size: 15px;
+  }
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+.mb-16 {
+  margin-bottom: 64px;
+}
+
+.space-y-6 > * + * {
+  margin-top: 24px;
+}
+
+.space-y-4 > * + * {
+  margin-top: 16px;
+}
+
+/* Experience card specific styling */
+.experience-card {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  border: none;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-color: transparent;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
+}
+
+/* Chat message markdown styles */
+.chat-markdown,
+.chat-markdown * {
+  color: inherit !important;
+}
+
+.chat-markdown h1,
+.chat-markdown h2,
+.chat-markdown h3 {
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.chat-markdown h1 { font-size: 1.5em; }
+.chat-markdown h2 { font-size: 1.25em; }
+.chat-markdown h3 { font-size: 1.1em; }
+
+.chat-markdown p {
+  margin: 0.75em 0;
+}
+
+.chat-markdown ul,
+.chat-markdown ol {
+  margin: 0.75em 0;
+  padding-left: 1.5em;
+}
+
+.chat-markdown li {
+  margin: 0.25em 0;
+}
+
+.chat-markdown strong {
+  font-weight: 700;
+}
+
+.chat-markdown em {
+  font-style: italic;
+}
+
+.chat-markdown code {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 0.9em;
+}
+
+.chat-markdown pre {
+  background: rgba(0, 0, 0, 0.08);
+  padding: 1em;
+  border-radius: 8px;
+  overflow: auto;
+  margin: 1em 0;
+  max-width: 100%;
+  max-height: 400px;
+  white-space: pre;
+  word-wrap: normal;
+}
+
+.chat-markdown pre code {
+  background: transparent;
+  padding: 0;
+  white-space: pre;
+  word-wrap: normal;
+}
+
+/* Constrain chat markdown container to prevent code blocks from expanding bubble */
+.chat-markdown {
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* Hide code blocks in resume builder mode */
+.chat-markdown.hide-codeblocks pre,
+.chat-markdown.hide-codeblocks pre code,
+.chat-markdown.hide-codeblocks code {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.chat-markdown blockquote {
+  border-left: 3px solid currentColor;
+  padding-left: 1em;
+  margin: 1em 0;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.chat-markdown a {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+.chat-markdown hr {
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  margin: 1.5em 0;
+}
+
+/* Clean selection */
+::selection {
+  background: rgba(59, 130, 246, 0.2);
+}
+
+/* Experience Timeline Responsive Layout */
+/* Mobile: Cards centered, timeline on left */
+.experience-timeline-item {
+  justify-content: center !important;
+}
+
+.experience-card-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Mobile timeline positioning */
+.timeline-line {
+  left: 32px !important;
+  transform: none !important;
+}
+
+.timeline-node {
+  left: 32px !important;
+  transform: none !important;
+}
+
+/* Desktop: Alternating left/right layout with centered timeline */
+@media (min-width: 768px) {
+  .experience-timeline-item[data-position="right"] {
+    justify-content: flex-end !important;
+  }
+  
+  .experience-timeline-item[data-position="left"] {
+    justify-content: flex-start !important;
+  }
+  
+  .experience-card-container[data-position="right"] {
+    width: 45%;
+    max-width: none;
+    margin-left: 55%;
+    margin-right: 0;
+  }
+  
+  .experience-card-container[data-position="left"] {
+    width: 45%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 55%;
+  }
+  
+  /* Desktop timeline positioning - back to center */
+  .timeline-line {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+  
+  .timeline-node {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+}

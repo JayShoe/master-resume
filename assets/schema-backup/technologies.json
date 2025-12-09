@@ -1,0 +1,122 @@
+[
+  {
+    "category": "tool",
+    "icon": null,
+    "id": 12,
+    "is_current": true,
+    "last_used": null,
+    "name": "Adobe Creative Suite",
+    "proficiency_level": 5,
+    "sort": null,
+    "status": "published",
+    "years_experience": 15
+  },
+  {
+    "category": "cloud",
+    "icon": null,
+    "id": 2,
+    "is_current": true,
+    "last_used": null,
+    "name": "AWS",
+    "proficiency_level": 4,
+    "sort": null,
+    "status": "published",
+    "years_experience": 6
+  },
+  {
+    "category": "platform",
+    "icon": null,
+    "id": 1,
+    "is_current": true,
+    "last_used": null,
+    "name": "Directus",
+    "proficiency_level": 4,
+    "sort": null,
+    "status": "published",
+    "years_experience": 2
+  },
+  {
+    "category": "tool",
+    "icon": null,
+    "id": 11,
+    "is_current": true,
+    "last_used": null,
+    "name": "Figma",
+    "proficiency_level": 4,
+    "sort": null,
+    "status": "published",
+    "years_experience": 5
+  },
+  {
+    "category": "tool",
+    "icon": null,
+    "id": 9,
+    "is_current": true,
+    "last_used": null,
+    "name": "Google Analytics",
+    "proficiency_level": 4,
+    "sort": null,
+    "status": "published",
+    "years_experience": 6
+  },
+  {
+    "category": "language",
+    "icon": null,
+    "id": 8,
+    "is_current": true,
+    "last_used": null,
+    "name": "JavaScript",
+    "proficiency_level": 4,
+    "sort": null,
+    "status": "published",
+    "years_experience": 8
+  },
+  {
+    "category": "tool",
+    "icon": null,
+    "id": 10,
+    "is_current": true,
+    "last_used": null,
+    "name": "Jira",
+    "proficiency_level": 5,
+    "sort": null,
+    "status": "published",
+    "years_experience": 6
+  },
+  {
+    "category": "framework",
+    "icon": null,
+    "id": 4,
+    "is_current": true,
+    "last_used": null,
+    "name": "React",
+    "proficiency_level": 4,
+    "sort": null,
+    "status": "published",
+    "years_experience": 5
+  },
+  {
+    "category": "database",
+    "icon": null,
+    "id": 6,
+    "is_current": true,
+    "last_used": null,
+    "name": "SQL",
+    "proficiency_level": 5,
+    "sort": null,
+    "status": "published",
+    "years_experience": 10
+  },
+  {
+    "category": "language",
+    "icon": null,
+    "id": 13,
+    "is_current": true,
+    "last_used": null,
+    "name": "TypeScript",
+    "proficiency_level": 4,
+    "sort": null,
+    "status": "published",
+    "years_experience": 4
+  }
+]

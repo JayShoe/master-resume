@@ -1,0 +1,10 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon background -->
+  <rect width="80" height="80" rx="16" fill="#0ea5e9"/>
+  
+  <!-- M shape -->
+  <path d="M20 56 L20 24 L32 40 L44 24 L44 56" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- AI spark -->
+  <circle cx="60" cy="24" r="10" fill="#fbbf24"/>
+</svg>

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "is_active": true,
+    "issue_date": "2020-06-15",
+    "issuing_organization": "Scrum.org",
+    "name": "Professional Scrum Master I (PSM I)",
+    "sort": null,
+    "status": "published"
+  },
+  {
+    "id": 2,
+    "is_active": true,
+    "issue_date": "2019-03-01",
+    "issuing_organization": "Animation Guild",
+    "name": "Certified Animation Director",
+    "sort": null,
+    "status": "published"
+  },
+  {
+    "id": 3,
+    "is_active": true,
+    "issue_date": "2022-09-01",
+    "issuing_organization": "Product School",
+    "name": "Product Management Certificate",
+    "sort": null,
+    "status": "published"
+  }
+]

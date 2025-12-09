@@ -1,0 +1,24 @@
+{
+    "mcpServers": {
+        "directus": {
+            "command": "npx",
+            "args": ["@directus/content-mcp@latest"],
+            "env": {
+                "DIRECTUS_URL": "https://gofer-directus-basicpim-dev2.up.railway.app",
+                "DIRECTUS_TOKEN": "jul62VAV0fZvWgws5IXhyJzlWNRd3PNq"
+            }
+        },
+		 "postgres": {
+			  "command": "docker",
+			  "args": [
+				"run",
+				"-i",
+				"--rm",
+				"-e",
+				"DATABASE_URI=postgres://postgres:BeB55dfC35FbAaf6B2a5AG52ceABDddD@shortline.proxy.rlwy.net:40801/railway",
+				"crystaldba/postgres-mcp",
+				"--access-mode=unrestricted"
+			  ]
+		}
+    }
+}

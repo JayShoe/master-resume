@@ -1,0 +1,16 @@
+# Windows artifacts
+backend/nul
+frontend/nul
+nul
+
+# Database backups - include scripts but exclude SQL dumps
+backups/*.sql
+!backups/README.md
+!backups/restore.*
+
+# Backend temp files (personal images)
+backend/temp/
+
+# MCP configuration with sensitive credentials
+.mcp.json
+/.directus-template-cli

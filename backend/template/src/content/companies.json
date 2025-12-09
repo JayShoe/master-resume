@@ -1,0 +1,103 @@
+[
+  {
+    "date_created": "2025-12-08T18:29:38.014Z",
+    "date_updated": null,
+    "description": "The premier cartoon production studio in Toontown",
+    "id": 2,
+    "industry": "Entertainment/Animation",
+    "location": "Hollywood, CA",
+    "logo": null,
+    "name": "Maroon Cartoon Studios",
+    "size": "large",
+    "sort": 1,
+    "status": "published",
+    "user_created": null,
+    "user_updated": null,
+    "website": "www.marooncartoons.example.com",
+    "positions": [
+      7,
+      8
+    ],
+    "projects": []
+  },
+  {
+    "date_created": "2025-12-08T18:29:38.016Z",
+    "date_updated": null,
+    "description": "Animation software and tools for the modern creator",
+    "id": 3,
+    "industry": "Technology/SaaS",
+    "location": "Toontown, CA",
+    "logo": null,
+    "name": "ToonTech Solutions",
+    "size": "startup",
+    "sort": 2,
+    "status": "published",
+    "user_created": null,
+    "user_updated": null,
+    "website": "www.toontech.example.com",
+    "positions": [
+      2
+    ],
+    "projects": []
+  },
+  {
+    "date_created": "2025-12-08T18:29:38.018Z",
+    "date_updated": null,
+    "description": "Full-service animation and entertainment production",
+    "id": 4,
+    "industry": "Entertainment/Technology",
+    "location": "Toontown, CA",
+    "logo": null,
+    "name": "Rabbit Productions LLC",
+    "size": "small",
+    "sort": 3,
+    "status": "published",
+    "user_created": null,
+    "user_updated": null,
+    "website": null,
+    "positions": [
+      4
+    ],
+    "projects": []
+  },
+  {
+    "date_created": "2025-12-08T18:29:38.020Z",
+    "date_updated": null,
+    "description": "Theme park entertainment and live performances",
+    "id": 5,
+    "industry": "Entertainment",
+    "location": "Anaheim, CA",
+    "logo": null,
+    "name": "Acme Entertainment Corp",
+    "size": "large",
+    "sort": 4,
+    "status": "published",
+    "user_created": null,
+    "user_updated": null,
+    "website": "www.acme-entertainment.example.com",
+    "positions": [
+      5
+    ],
+    "projects": []
+  },
+  {
+    "date_created": "2025-12-08T18:29:38.021Z",
+    "date_updated": null,
+    "description": "Higher education for animated arts",
+    "id": 6,
+    "industry": "Education",
+    "location": "Toontown, CA",
+    "logo": null,
+    "name": "Toontown University",
+    "size": "large",
+    "sort": 5,
+    "status": "published",
+    "user_created": null,
+    "user_updated": null,
+    "website": null,
+    "positions": [
+      6
+    ],
+    "projects": []
+  }
+]

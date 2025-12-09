@@ -1,0 +1,42 @@
+[
+  {
+    "id": "53e98111-3955-4332-b2d7-8e0f764ce8c1",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "53e98111-3955-4332-b2d7-8e0f764ce8c1",
+      "folder": "directus-extension-schema-sync",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/directus/node_modules/.pnpm/directus-extension-schema-sync@3.0.9/node_modules/directus-extension-schema-sync",
+      "name": "directus-extension-schema-sync",
+      "version": "3.0.9",
+      "type": "hook",
+      "entrypoint": "dist/index.js",
+      "host": "^11.0.0",
+      "local": true
+    }
+  },
+  {
+    "id": "8baecec6-3174-4b90-82f2-783ca5af500d",
+    "bundle": null,
+    "meta": {
+      "enabled": true,
+      "id": "8baecec6-3174-4b90-82f2-783ca5af500d",
+      "folder": "directus-extension-schema-sync",
+      "source": "module",
+      "bundle": null
+    },
+    "schema": {
+      "path": "/directus/node_modules/.pnpm/directus-extension-schema-sync@3.0.9/node_modules/directus-extension-schema-sync",
+      "name": "directus-extension-schema-sync",
+      "version": "3.0.9",
+      "type": "hook",
+      "entrypoint": "dist/index.js",
+      "host": "^11.0.0",
+      "local": true
+    }
+  }
+]
