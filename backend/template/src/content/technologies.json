@@ -2,7 +2,7 @@
   {
     "category": "tool",
     "date_created": "2025-12-08T19:50:55.932Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.261Z",
     "icon": null,
     "id": 12,
     "is_current": true,
@@ -12,8 +12,8 @@
     "select": null,
     "sort": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "years_experience": 15,
     "accomplishments": [
       1,
@@ -26,7 +26,7 @@
   {
     "category": "cloud",
     "date_created": "2025-12-08T19:50:55.944Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.271Z",
     "icon": null,
     "id": 2,
     "is_current": true,
@@ -36,8 +36,8 @@
     "select": null,
     "sort": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "years_experience": 6,
     "accomplishments": [
       2,
@@ -48,7 +48,7 @@
   {
     "category": "platform",
     "date_created": "2025-12-08T19:50:55.946Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.277Z",
     "icon": null,
     "id": 1,
     "is_current": true,
@@ -58,8 +58,8 @@
     "select": null,
     "sort": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "years_experience": 2,
     "accomplishments": [
       9
@@ -69,7 +69,7 @@
   {
     "category": "tool",
     "date_created": "2025-12-08T19:50:55.948Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.282Z",
     "icon": null,
     "id": 11,
     "is_current": true,
@@ -79,8 +79,8 @@
     "select": null,
     "sort": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "years_experience": 5,
     "accomplishments": [
       16
@@ -90,7 +90,7 @@
   {
     "category": "tool",
     "date_created": "2025-12-08T19:50:55.950Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.287Z",
     "icon": null,
     "id": 9,
     "is_current": true,
@@ -100,8 +100,8 @@
     "select": null,
     "sort": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "years_experience": 6,
     "accomplishments": [
       5,
@@ -112,7 +112,7 @@
   {
     "category": "language",
     "date_created": "2025-12-08T19:50:55.952Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.293Z",
     "icon": null,
     "id": 8,
     "is_current": true,
@@ -122,8 +122,8 @@
     "select": null,
     "sort": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "years_experience": 8,
     "accomplishments": [
       14
@@ -133,7 +133,7 @@
   {
     "category": "tool",
     "date_created": "2025-12-08T19:50:55.953Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.297Z",
     "icon": null,
     "id": 10,
     "is_current": true,
@@ -143,8 +143,8 @@
     "select": null,
     "sort": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "years_experience": 6,
     "accomplishments": [
       18
@@ -154,7 +154,7 @@
   {
     "category": "framework",
     "date_created": "2025-12-08T19:50:55.956Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.301Z",
     "icon": null,
     "id": 4,
     "is_current": true,
@@ -164,8 +164,8 @@
     "select": null,
     "sort": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "years_experience": 5,
     "accomplishments": [
       3,
@@ -177,7 +177,7 @@
   {
     "category": "database",
     "date_created": "2025-12-08T19:50:55.958Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.305Z",
     "icon": null,
     "id": 6,
     "is_current": true,
@@ -187,8 +187,8 @@
     "select": null,
     "sort": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "years_experience": 10,
     "accomplishments": [
       6,
@@ -200,7 +200,7 @@
   {
     "category": "language",
     "date_created": "2025-12-08T19:50:55.960Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.310Z",
     "icon": null,
     "id": 13,
     "is_current": true,
@@ -210,8 +210,8 @@
     "select": null,
     "sort": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "years_experience": 4,
     "accomplishments": [
       4,

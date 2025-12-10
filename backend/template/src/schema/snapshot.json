@@ -144,6 +144,34 @@
       }
     },
     {
+      "collection": "ai_prompts",
+      "meta": {
+        "accountability": "all",
+        "archive_app_filter": true,
+        "archive_field": "status",
+        "archive_value": "archived",
+        "collapse": "open",
+        "collection": "ai_prompts",
+        "color": null,
+        "display_template": null,
+        "group": null,
+        "hidden": false,
+        "icon": "magic_button",
+        "item_duplication_fields": null,
+        "note": null,
+        "preview_url": null,
+        "singleton": false,
+        "sort": null,
+        "sort_field": "sort",
+        "translations": null,
+        "unarchive_value": "draft",
+        "versioning": false
+      },
+      "schema": {
+        "name": "ai_prompts"
+      }
+    },
+    {
       "collection": "certifications",
       "meta": {
         "accountability": "all",
@@ -1473,34 +1501,6 @@
     },
     {
       "collection": "accomplishments",
-      "field": "accomplishment_variations",
-      "type": "alias",
-      "meta": {
-        "collection": "accomplishments",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "accomplishment_variations",
-        "group": null,
-        "hidden": false,
-        "interface": "list-o2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 16,
-        "special": [
-          "o2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "accomplishments",
       "field": "approximate_date",
       "type": "date",
       "meta": {
@@ -1685,34 +1685,6 @@
         "has_auto_increment": false,
         "foreign_key_table": null,
         "foreign_key_column": null
-      }
-    },
-    {
-      "collection": "accomplishments",
-      "field": "education",
-      "type": "alias",
-      "meta": {
-        "collection": "accomplishments",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "education",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 22,
-        "special": [
-          "m2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
       }
     },
     {
@@ -2029,92 +2001,6 @@
     },
     {
       "collection": "accomplishments",
-      "field": "related_projects",
-      "type": "alias",
-      "meta": {
-        "collection": "accomplishments",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "related_projects",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 20,
-        "special": [
-          "m2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "accomplishments",
-      "field": "related_skills",
-      "type": "alias",
-      "meta": {
-        "collection": "accomplishments",
-        "conditions": null,
-        "display": "related-values",
-        "display_options": {
-          "template": "{{skills_id.name}}"
-        },
-        "field": "related_skills",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 21,
-        "special": [
-          "m2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "accomplishments",
-      "field": "related_technologies",
-      "type": "alias",
-      "meta": {
-        "collection": "accomplishments",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "related_technologies",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 18,
-        "special": [
-          "m2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "accomplishments",
       "field": "sort",
       "type": "integer",
       "meta": {
@@ -2288,8 +2174,8 @@
         "is_generated": false,
         "generation_expression": null,
         "has_auto_increment": false,
-        "foreign_key_table": null,
-        "foreign_key_column": null
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id"
       }
     },
     {
@@ -2338,6 +2224,148 @@
         "has_auto_increment": false,
         "foreign_key_table": "directus_users",
         "foreign_key_column": "id"
+      }
+    },
+    {
+      "collection": "accomplishments",
+      "field": "accomplishment_variations",
+      "type": "alias",
+      "meta": {
+        "collection": "accomplishments",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "accomplishment_variations",
+        "group": null,
+        "hidden": false,
+        "interface": "list-o2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 16,
+        "special": [
+          "o2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "accomplishments",
+      "field": "education",
+      "type": "alias",
+      "meta": {
+        "collection": "accomplishments",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "education",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 22,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "accomplishments",
+      "field": "related_projects",
+      "type": "alias",
+      "meta": {
+        "collection": "accomplishments",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "related_projects",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 20,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "accomplishments",
+      "field": "related_skills",
+      "type": "alias",
+      "meta": {
+        "collection": "accomplishments",
+        "conditions": null,
+        "display": "related-values",
+        "display_options": {
+          "template": "{{skills_id.name}}"
+        },
+        "field": "related_skills",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 21,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "accomplishments",
+      "field": "related_technologies",
+      "type": "alias",
+      "meta": {
+        "collection": "accomplishments",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "related_technologies",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 18,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
       }
     },
     {
@@ -2822,6 +2850,656 @@
         "has_auto_increment": false,
         "foreign_key_table": "technologies",
         "foreign_key_column": "id"
+      }
+    },
+    {
+      "collection": "ai_prompts",
+      "field": "id",
+      "type": "uuid",
+      "meta": {
+        "collection": "ai_prompts",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "id",
+        "group": null,
+        "hidden": true,
+        "interface": "input",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 1,
+        "special": [
+          "uuid"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "half"
+      },
+      "schema": {
+        "name": "id",
+        "table": "ai_prompts",
+        "data_type": "uuid",
+        "default_value": null,
+        "max_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "is_nullable": false,
+        "is_unique": true,
+        "is_indexed": false,
+        "is_primary_key": true,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": null,
+        "foreign_key_column": null
+      }
+    },
+    {
+      "collection": "ai_prompts",
+      "field": "sort",
+      "type": "integer",
+      "meta": {
+        "collection": "ai_prompts",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "sort",
+        "group": null,
+        "hidden": true,
+        "interface": "input",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 2,
+        "special": null,
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "half"
+      },
+      "schema": {
+        "name": "sort",
+        "table": "ai_prompts",
+        "data_type": "integer",
+        "default_value": null,
+        "max_length": null,
+        "numeric_precision": 32,
+        "numeric_scale": 0,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": null,
+        "foreign_key_column": null
+      }
+    },
+    {
+      "collection": "ai_prompts",
+      "field": "date_created",
+      "type": "timestamp",
+      "meta": {
+        "collection": "ai_prompts",
+        "conditions": null,
+        "display": "datetime",
+        "display_options": {
+          "relative": true
+        },
+        "field": "date_created",
+        "group": null,
+        "hidden": true,
+        "interface": "datetime",
+        "note": null,
+        "options": null,
+        "readonly": true,
+        "required": false,
+        "searchable": true,
+        "sort": 3,
+        "special": [
+          "date-created"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "half"
+      },
+      "schema": {
+        "name": "date_created",
+        "table": "ai_prompts",
+        "data_type": "timestamp with time zone",
+        "default_value": "CURRENT_TIMESTAMP",
+        "max_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": null,
+        "foreign_key_column": null
+      }
+    },
+    {
+      "collection": "ai_prompts",
+      "field": "user_created",
+      "type": "uuid",
+      "meta": {
+        "collection": "ai_prompts",
+        "conditions": null,
+        "display": "user",
+        "display_options": null,
+        "field": "user_created",
+        "group": null,
+        "hidden": true,
+        "interface": "select-dropdown-m2o",
+        "note": null,
+        "options": {
+          "template": "{{avatar}} {{first_name}} {{last_name}}"
+        },
+        "readonly": true,
+        "required": false,
+        "searchable": true,
+        "sort": 4,
+        "special": [
+          "user-created"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "half"
+      },
+      "schema": {
+        "name": "user_created",
+        "table": "ai_prompts",
+        "data_type": "uuid",
+        "default_value": null,
+        "max_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id"
+      }
+    },
+    {
+      "collection": "ai_prompts",
+      "field": "date_updated",
+      "type": "timestamp",
+      "meta": {
+        "collection": "ai_prompts",
+        "conditions": null,
+        "display": "datetime",
+        "display_options": {
+          "relative": true
+        },
+        "field": "date_updated",
+        "group": null,
+        "hidden": true,
+        "interface": "datetime",
+        "note": null,
+        "options": null,
+        "readonly": true,
+        "required": false,
+        "searchable": true,
+        "sort": 5,
+        "special": [
+          "date-updated"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "half"
+      },
+      "schema": {
+        "name": "date_updated",
+        "table": "ai_prompts",
+        "data_type": "timestamp with time zone",
+        "default_value": null,
+        "max_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": null,
+        "foreign_key_column": null
+      }
+    },
+    {
+      "collection": "ai_prompts",
+      "field": "user_updated",
+      "type": "uuid",
+      "meta": {
+        "collection": "ai_prompts",
+        "conditions": null,
+        "display": "user",
+        "display_options": null,
+        "field": "user_updated",
+        "group": null,
+        "hidden": true,
+        "interface": "select-dropdown-m2o",
+        "note": null,
+        "options": {
+          "template": "{{avatar}} {{first_name}} {{last_name}}"
+        },
+        "readonly": true,
+        "required": false,
+        "searchable": true,
+        "sort": 6,
+        "special": [
+          "user-updated"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "half"
+      },
+      "schema": {
+        "name": "user_updated",
+        "table": "ai_prompts",
+        "data_type": "uuid",
+        "default_value": null,
+        "max_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id"
+      }
+    },
+    {
+      "collection": "ai_prompts",
+      "field": "meta_prompts_notice",
+      "type": "alias",
+      "meta": {
+        "collection": "ai_prompts",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "meta_prompts_notice",
+        "group": null,
+        "hidden": false,
+        "interface": "presentation-notice",
+        "note": null,
+        "options": {
+          "icon": "info",
+          "text": "$t:mcp_prompts_collection_schema.meta_prompts_notice"
+        },
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 7,
+        "special": [
+          "alias",
+          "no-data"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "ai_prompts",
+      "field": "name",
+      "type": "string",
+      "meta": {
+        "collection": "ai_prompts",
+        "conditions": null,
+        "display": "formatted-value",
+        "display_options": {
+          "font": "monospace"
+        },
+        "field": "name",
+        "group": null,
+        "hidden": false,
+        "interface": "input",
+        "note": null,
+        "options": {
+          "slug": true,
+          "trim": true
+        },
+        "readonly": false,
+        "required": true,
+        "searchable": true,
+        "sort": 8,
+        "special": null,
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "half"
+      },
+      "schema": {
+        "name": "name",
+        "table": "ai_prompts",
+        "data_type": "character varying",
+        "default_value": null,
+        "max_length": 255,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "is_nullable": true,
+        "is_unique": true,
+        "is_indexed": true,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": null,
+        "foreign_key_column": null
+      }
+    },
+    {
+      "collection": "ai_prompts",
+      "field": "status",
+      "type": "string",
+      "meta": {
+        "collection": "ai_prompts",
+        "conditions": null,
+        "display": "labels",
+        "display_options": {
+          "choices": [
+            {
+              "background": "var(--theme--primary-background)",
+              "color": "var(--theme--primary)",
+              "foreground": "var(--theme--primary)",
+              "text": "$t:published",
+              "value": "published"
+            },
+            {
+              "background": "var(--theme--background-normal)",
+              "color": "var(--theme--foreground)",
+              "foreground": "var(--theme--foreground)",
+              "text": "$t:draft",
+              "value": "draft"
+            },
+            {
+              "background": "var(--theme--warning-background)",
+              "color": "var(--theme--warning)",
+              "foreground": "var(--theme--warning)",
+              "text": "$t:archived",
+              "value": "archived"
+            }
+          ]
+        },
+        "field": "status",
+        "group": null,
+        "hidden": false,
+        "interface": "select-dropdown",
+        "note": null,
+        "options": {
+          "choices": [
+            {
+              "color": "var(--theme--primary)",
+              "text": "$t:published",
+              "value": "published"
+            },
+            {
+              "color": "var(--theme--foreground)",
+              "text": "$t:draft",
+              "value": "draft"
+            },
+            {
+              "color": "var(--theme--warning)",
+              "text": "$t:archived",
+              "value": "archived"
+            }
+          ]
+        },
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 9,
+        "special": null,
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "half"
+      },
+      "schema": {
+        "name": "status",
+        "table": "ai_prompts",
+        "data_type": "character varying",
+        "default_value": "draft",
+        "max_length": 255,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": null,
+        "foreign_key_column": null
+      }
+    },
+    {
+      "collection": "ai_prompts",
+      "field": "description",
+      "type": "text",
+      "meta": {
+        "collection": "ai_prompts",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "description",
+        "group": null,
+        "hidden": false,
+        "interface": "input",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 10,
+        "special": null,
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      },
+      "schema": {
+        "name": "description",
+        "table": "ai_prompts",
+        "data_type": "text",
+        "default_value": null,
+        "max_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": null,
+        "foreign_key_column": null
+      }
+    },
+    {
+      "collection": "ai_prompts",
+      "field": "system_prompt",
+      "type": "text",
+      "meta": {
+        "collection": "ai_prompts",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "system_prompt",
+        "group": null,
+        "hidden": false,
+        "interface": "input-rich-text-md",
+        "note": "$t:mcp_prompts_collection_schema.system_prompt_note",
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 11,
+        "special": null,
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      },
+      "schema": {
+        "name": "system_prompt",
+        "table": "ai_prompts",
+        "data_type": "text",
+        "default_value": null,
+        "max_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": null,
+        "foreign_key_column": null
+      }
+    },
+    {
+      "collection": "ai_prompts",
+      "field": "messages",
+      "type": "json",
+      "meta": {
+        "collection": "ai_prompts",
+        "conditions": null,
+        "display": "formatted-json-value",
+        "display_options": {
+          "format": "{{ role }} • {{ text }}"
+        },
+        "field": "messages",
+        "group": null,
+        "hidden": false,
+        "interface": "list",
+        "note": "$t:mcp_prompts_collection_schema.messages_note",
+        "options": {
+          "addLabel": "New Message",
+          "fields": [
+            {
+              "field": "role",
+              "meta": {
+                "display": "labels",
+                "display_options": {
+                  "choices": [
+                    {
+                      "icon": "person",
+                      "text": "$t:mcp_prompts_collection_schema.messages_role_user",
+                      "value": "user"
+                    },
+                    {
+                      "icon": "smart_toy",
+                      "text": "$t:mcp_prompts_collection_schema.messages_role_assistant",
+                      "value": "assistant"
+                    }
+                  ]
+                },
+                "field": "role",
+                "interface": "select-dropdown",
+                "note": "$t:mcp_prompts_collection_schema.messages_role_note",
+                "options": {
+                  "choices": [
+                    {
+                      "icon": "person",
+                      "text": "$t:mcp_prompts_collection_schema.messages_role_user",
+                      "value": "user"
+                    },
+                    {
+                      "icon": "smart_toy",
+                      "text": "$t:mcp_prompts_collection_schema.messages_role_assistant",
+                      "value": "assistant"
+                    }
+                  ]
+                },
+                "required": true,
+                "type": "string",
+                "width": "full"
+              },
+              "name": "role",
+              "type": "string"
+            },
+            {
+              "field": "text",
+              "meta": {
+                "display": "formatted-value",
+                "display_options": {
+                  "format": true
+                },
+                "field": "text",
+                "interface": "input-rich-text-md",
+                "note": "The actual content of the message. You can use {{ curly_braces }} for placeholders that will be replaced with real data.",
+                "required": true,
+                "type": "text",
+                "width": "full"
+              },
+              "name": "text",
+              "type": "text"
+            }
+          ],
+          "showConfirmDiscard": true,
+          "template": "{{ role }} • {{ text }}"
+        },
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 12,
+        "special": [
+          "cast-json"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      },
+      "schema": {
+        "name": "messages",
+        "table": "ai_prompts",
+        "data_type": "json",
+        "default_value": null,
+        "max_length": null,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "is_nullable": true,
+        "is_unique": false,
+        "is_indexed": false,
+        "is_primary_key": false,
+        "is_generated": false,
+        "generation_expression": null,
+        "has_auto_increment": false,
+        "foreign_key_table": null,
+        "foreign_key_column": null
       }
     },
     {
@@ -3317,8 +3995,8 @@
         "is_generated": false,
         "generation_expression": null,
         "has_auto_increment": false,
-        "foreign_key_table": null,
-        "foreign_key_column": null
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id"
       }
     },
     {
@@ -3738,62 +4416,6 @@
     },
     {
       "collection": "companies",
-      "field": "positions",
-      "type": "alias",
-      "meta": {
-        "collection": "companies",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "positions",
-        "group": null,
-        "hidden": false,
-        "interface": "list-o2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 15,
-        "special": [
-          "o2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "companies",
-      "field": "projects",
-      "type": "alias",
-      "meta": {
-        "collection": "companies",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "projects",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 16,
-        "special": [
-          "m2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "companies",
       "field": "size",
       "type": "string",
       "meta": {
@@ -4133,15 +4755,15 @@
       }
     },
     {
-      "collection": "cover_letters",
-      "field": "cover_letters",
+      "collection": "companies",
+      "field": "positions",
       "type": "alias",
       "meta": {
-        "collection": "cover_letters",
+        "collection": "companies",
         "conditions": null,
         "display": null,
         "display_options": null,
-        "field": "cover_letters",
+        "field": "positions",
         "group": null,
         "hidden": false,
         "interface": "list-o2m",
@@ -4150,9 +4772,37 @@
         "readonly": false,
         "required": false,
         "searchable": true,
-        "sort": 9,
+        "sort": 15,
         "special": [
           "o2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "companies",
+      "field": "projects",
+      "type": "alias",
+      "meta": {
+        "collection": "companies",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "projects",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 16,
+        "special": [
+          "m2m"
         ],
         "translations": null,
         "validation": null,
@@ -4298,34 +4948,6 @@
         "has_auto_increment": true,
         "foreign_key_table": null,
         "foreign_key_column": null
-      }
-    },
-    {
-      "collection": "cover_letters",
-      "field": "job_applications",
-      "type": "alias",
-      "meta": {
-        "collection": "cover_letters",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "job_applications",
-        "group": null,
-        "hidden": false,
-        "interface": "list-o2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 10,
-        "special": [
-          "o2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
       }
     },
     {
@@ -4604,26 +5226,54 @@
       }
     },
     {
-      "collection": "education",
-      "field": "accomplishments",
+      "collection": "cover_letters",
+      "field": "cover_letters",
       "type": "alias",
       "meta": {
-        "collection": "education",
+        "collection": "cover_letters",
         "conditions": null,
         "display": null,
         "display_options": null,
-        "field": "accomplishments",
+        "field": "cover_letters",
         "group": null,
         "hidden": false,
-        "interface": "list-m2m",
+        "interface": "list-o2m",
         "note": null,
         "options": null,
         "readonly": false,
         "required": false,
         "searchable": true,
-        "sort": 15,
+        "sort": 9,
         "special": [
-          "m2m"
+          "o2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "cover_letters",
+      "field": "job_applications",
+      "type": "alias",
+      "meta": {
+        "collection": "cover_letters",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "job_applications",
+        "group": null,
+        "hidden": false,
+        "interface": "list-o2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 10,
+        "special": [
+          "o2m"
         ],
         "translations": null,
         "validation": null,
@@ -5026,34 +5676,6 @@
     },
     {
       "collection": "education",
-      "field": "related_items",
-      "type": "alias",
-      "meta": {
-        "collection": "education",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "related_items",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2a",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 16,
-        "special": [
-          "m2a"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "education",
       "field": "sort",
       "type": "integer",
       "meta": {
@@ -5315,8 +5937,8 @@
         "is_generated": false,
         "generation_expression": null,
         "has_auto_increment": false,
-        "foreign_key_table": null,
-        "foreign_key_column": null
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id"
       }
     },
     {
@@ -5365,6 +5987,62 @@
         "has_auto_increment": false,
         "foreign_key_table": "directus_users",
         "foreign_key_column": "id"
+      }
+    },
+    {
+      "collection": "education",
+      "field": "accomplishments",
+      "type": "alias",
+      "meta": {
+        "collection": "education",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "accomplishments",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 15,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "education",
+      "field": "related_items",
+      "type": "alias",
+      "meta": {
+        "collection": "education",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "related_items",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2a",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 16,
+        "special": [
+          "m2a"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
       }
     },
     {
@@ -8255,34 +8933,6 @@
     },
     {
       "collection": "positions",
-      "field": "accomplishments",
-      "type": "alias",
-      "meta": {
-        "collection": "positions",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "accomplishments",
-        "group": null,
-        "hidden": false,
-        "interface": "list-o2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 17,
-        "special": [
-          "o2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "positions",
       "field": "company",
       "type": "integer",
       "meta": {
@@ -8762,34 +9412,6 @@
     },
     {
       "collection": "positions",
-      "field": "projects",
-      "type": "alias",
-      "meta": {
-        "collection": "positions",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "projects",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 18,
-        "special": [
-          "m2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "positions",
       "field": "sort",
       "type": "integer",
       "meta": {
@@ -9053,8 +9675,8 @@
         "is_generated": false,
         "generation_expression": null,
         "has_auto_increment": false,
-        "foreign_key_table": null,
-        "foreign_key_column": null
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id"
       }
     },
     {
@@ -9103,6 +9725,62 @@
         "has_auto_increment": false,
         "foreign_key_table": "directus_users",
         "foreign_key_column": "id"
+      }
+    },
+    {
+      "collection": "positions",
+      "field": "accomplishments",
+      "type": "alias",
+      "meta": {
+        "collection": "positions",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "accomplishments",
+        "group": null,
+        "hidden": false,
+        "interface": "list-o2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 17,
+        "special": [
+          "o2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "positions",
+      "field": "projects",
+      "type": "alias",
+      "meta": {
+        "collection": "positions",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "projects",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 18,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
       }
     },
     {
@@ -9694,34 +10372,6 @@
     },
     {
       "collection": "projects",
-      "field": "accomplishments",
-      "type": "alias",
-      "meta": {
-        "collection": "projects",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "accomplishments",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 17,
-        "special": [
-          "m2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "projects",
       "field": "date_created",
       "type": "timestamp",
       "meta": {
@@ -10207,62 +10857,6 @@
     },
     {
       "collection": "projects",
-      "field": "related_companies",
-      "type": "alias",
-      "meta": {
-        "collection": "projects",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "related_companies",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 21,
-        "special": [
-          "m2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "projects",
-      "field": "related_positions",
-      "type": "alias",
-      "meta": {
-        "collection": "projects",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "related_positions",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 20,
-        "special": [
-          "m2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "projects",
       "field": "role",
       "type": "string",
       "meta": {
@@ -10303,34 +10897,6 @@
         "has_auto_increment": false,
         "foreign_key_table": null,
         "foreign_key_column": null
-      }
-    },
-    {
-      "collection": "projects",
-      "field": "skills_demonstrated",
-      "type": "alias",
-      "meta": {
-        "collection": "projects",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "skills_demonstrated",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 18,
-        "special": [
-          "m2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
       }
     },
     {
@@ -10512,34 +11078,6 @@
     },
     {
       "collection": "projects",
-      "field": "technologies_used",
-      "type": "alias",
-      "meta": {
-        "collection": "projects",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "technologies_used",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 19,
-        "special": [
-          "m2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "projects",
       "field": "user_created",
       "type": "uuid",
       "meta": {
@@ -10582,8 +11120,8 @@
         "is_generated": false,
         "generation_expression": null,
         "has_auto_increment": false,
-        "foreign_key_table": null,
-        "foreign_key_column": null
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id"
       }
     },
     {
@@ -10632,6 +11170,146 @@
         "has_auto_increment": false,
         "foreign_key_table": "directus_users",
         "foreign_key_column": "id"
+      }
+    },
+    {
+      "collection": "projects",
+      "field": "accomplishments",
+      "type": "alias",
+      "meta": {
+        "collection": "projects",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "accomplishments",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 17,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "projects",
+      "field": "related_companies",
+      "type": "alias",
+      "meta": {
+        "collection": "projects",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "related_companies",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 21,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "projects",
+      "field": "related_positions",
+      "type": "alias",
+      "meta": {
+        "collection": "projects",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "related_positions",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 20,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "projects",
+      "field": "skills_demonstrated",
+      "type": "alias",
+      "meta": {
+        "collection": "projects",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "skills_demonstrated",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 18,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "projects",
+      "field": "technologies_used",
+      "type": "alias",
+      "meta": {
+        "collection": "projects",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "technologies_used",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 19,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
       }
     },
     {
@@ -11612,34 +12290,6 @@
     },
     {
       "collection": "resumes",
-      "field": "job_applications",
-      "type": "alias",
-      "meta": {
-        "collection": "resumes",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "job_applications",
-        "group": null,
-        "hidden": false,
-        "interface": "list-o2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 17,
-        "special": [
-          "o2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "resumes",
       "field": "parent_resume",
       "type": "integer",
       "meta": {
@@ -11682,34 +12332,6 @@
         "has_auto_increment": false,
         "foreign_key_table": "resumes",
         "foreign_key_column": "id"
-      }
-    },
-    {
-      "collection": "resumes",
-      "field": "resumes",
-      "type": "alias",
-      "meta": {
-        "collection": "resumes",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "resumes",
-        "group": null,
-        "hidden": false,
-        "interface": "list-o2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 16,
-        "special": [
-          "o2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
       }
     },
     {
@@ -12118,26 +12740,54 @@
       }
     },
     {
-      "collection": "skills",
-      "field": "accomplishments",
+      "collection": "resumes",
+      "field": "job_applications",
       "type": "alias",
       "meta": {
-        "collection": "skills",
+        "collection": "resumes",
         "conditions": null,
         "display": null,
         "display_options": null,
-        "field": "accomplishments",
+        "field": "job_applications",
         "group": null,
         "hidden": false,
-        "interface": "list-m2m",
+        "interface": "list-o2m",
         "note": null,
         "options": null,
         "readonly": false,
         "required": false,
         "searchable": true,
-        "sort": 14,
+        "sort": 17,
         "special": [
-          "m2m"
+          "o2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "resumes",
+      "field": "resumes",
+      "type": "alias",
+      "meta": {
+        "collection": "resumes",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "resumes",
+        "group": null,
+        "hidden": false,
+        "interface": "list-o2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 16,
+        "special": [
+          "o2m"
         ],
         "translations": null,
         "validation": null,
@@ -12517,34 +13167,6 @@
     },
     {
       "collection": "skills",
-      "field": "projects",
-      "type": "alias",
-      "meta": {
-        "collection": "skills",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "projects",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 13,
-        "special": [
-          "m2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "skills",
       "field": "sort",
       "type": "integer",
       "meta": {
@@ -12762,8 +13384,8 @@
         "is_generated": false,
         "generation_expression": null,
         "has_auto_increment": false,
-        "foreign_key_table": null,
-        "foreign_key_column": null
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id"
       }
     },
     {
@@ -12812,6 +13434,62 @@
         "has_auto_increment": false,
         "foreign_key_table": "directus_users",
         "foreign_key_column": "id"
+      }
+    },
+    {
+      "collection": "skills",
+      "field": "accomplishments",
+      "type": "alias",
+      "meta": {
+        "collection": "skills",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "accomplishments",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 14,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "skills",
+      "field": "projects",
+      "type": "alias",
+      "meta": {
+        "collection": "skills",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "projects",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 13,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
       }
     },
     {
@@ -13686,7 +14364,7 @@
         "name": "tagline",
         "table": "system_settings",
         "data_type": "character varying",
-        "default_value": "Product Leader with an Entrepreneur''''''''s Heart",
+        "default_value": "Product Leader with an Entrepreneur''''''''''''''''s Heart",
         "max_length": 255,
         "numeric_precision": null,
         "numeric_scale": null,
@@ -13927,34 +14605,6 @@
         "has_auto_increment": false,
         "foreign_key_table": null,
         "foreign_key_column": null
-      }
-    },
-    {
-      "collection": "technologies",
-      "field": "accomplishments",
-      "type": "alias",
-      "meta": {
-        "collection": "technologies",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "accomplishments",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 15,
-        "special": [
-          "m2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
       }
     },
     {
@@ -14427,34 +15077,6 @@
     },
     {
       "collection": "technologies",
-      "field": "projects",
-      "type": "alias",
-      "meta": {
-        "collection": "technologies",
-        "conditions": null,
-        "display": null,
-        "display_options": null,
-        "field": "projects",
-        "group": null,
-        "hidden": false,
-        "interface": "list-m2m",
-        "note": null,
-        "options": null,
-        "readonly": false,
-        "required": false,
-        "searchable": true,
-        "sort": 16,
-        "special": [
-          "m2m"
-        ],
-        "translations": null,
-        "validation": null,
-        "validation_message": null,
-        "width": "full"
-      }
-    },
-    {
-      "collection": "technologies",
       "field": "select",
       "type": "string",
       "meta": {
@@ -14679,8 +15301,8 @@
         "is_generated": false,
         "generation_expression": null,
         "has_auto_increment": false,
-        "foreign_key_table": null,
-        "foreign_key_column": null
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id"
       }
     },
     {
@@ -14776,6 +15398,62 @@
         "foreign_key_table": null,
         "foreign_key_column": null
       }
+    },
+    {
+      "collection": "technologies",
+      "field": "accomplishments",
+      "type": "alias",
+      "meta": {
+        "collection": "technologies",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "accomplishments",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 15,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
+    },
+    {
+      "collection": "technologies",
+      "field": "projects",
+      "type": "alias",
+      "meta": {
+        "collection": "technologies",
+        "conditions": null,
+        "display": null,
+        "display_options": null,
+        "field": "projects",
+        "group": null,
+        "hidden": false,
+        "interface": "list-m2m",
+        "note": null,
+        "options": null,
+        "readonly": false,
+        "required": false,
+        "searchable": true,
+        "sort": 16,
+        "special": [
+          "m2m"
+        ],
+        "translations": null,
+        "validation": null,
+        "validation_message": null,
+        "width": "full"
+      }
     }
   ],
   "systemFields": [
@@ -14797,27 +15475,27 @@
   "relations": [
     {
       "collection": "accomplishment_variations",
-      "field": "accomplishment",
-      "related_collection": "accomplishments",
+      "field": "user_updated",
+      "related_collection": "directus_users",
       "meta": {
         "junction_field": null,
         "many_collection": "accomplishment_variations",
-        "many_field": "accomplishment",
+        "many_field": "user_updated",
         "one_allowed_collections": null,
-        "one_collection": "accomplishments",
+        "one_collection": "directus_users",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
-        "one_field": "accomplishment_variations",
+        "one_field": null,
         "sort_field": null
       },
       "schema": {
         "table": "accomplishment_variations",
-        "column": "accomplishment",
-        "foreign_key_table": "accomplishments",
+        "column": "user_updated",
+        "foreign_key_table": "directus_users",
         "foreign_key_column": "id",
-        "constraint_name": "accomplishment_variations_accomplishment_foreign",
+        "constraint_name": "accomplishment_variations_user_updated_foreign",
         "on_update": "NO ACTION",
-        "on_delete": "SET NULL"
+        "on_delete": "NO ACTION"
       }
     },
     {
@@ -14847,43 +15525,27 @@
     },
     {
       "collection": "accomplishment_variations",
-      "field": "user_updated",
-      "related_collection": "directus_users",
+      "field": "accomplishment",
+      "related_collection": "accomplishments",
       "meta": {
         "junction_field": null,
         "many_collection": "accomplishment_variations",
-        "many_field": "user_updated",
+        "many_field": "accomplishment",
         "one_allowed_collections": null,
-        "one_collection": "directus_users",
+        "one_collection": "accomplishments",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
-        "one_field": null,
+        "one_field": "accomplishment_variations",
         "sort_field": null
       },
       "schema": {
         "table": "accomplishment_variations",
-        "column": "user_updated",
-        "foreign_key_table": "directus_users",
+        "column": "accomplishment",
+        "foreign_key_table": "accomplishments",
         "foreign_key_column": "id",
-        "constraint_name": "accomplishment_variations_user_updated_foreign",
+        "constraint_name": "accomplishment_variations_accomplishment_foreign",
         "on_update": "NO ACTION",
-        "on_delete": "NO ACTION"
-      }
-    },
-    {
-      "collection": "accomplishments",
-      "field": "user_created",
-      "related_collection": "directus_users",
-      "meta": {
-        "junction_field": null,
-        "many_collection": "accomplishments",
-        "many_field": "user_created",
-        "one_allowed_collections": null,
-        "one_collection": "directus_users",
-        "one_collection_field": null,
-        "one_deselect_action": "nullify",
-        "one_field": null,
-        "sort_field": null
+        "on_delete": "SET NULL"
       }
     },
     {
@@ -14937,28 +15599,28 @@
       }
     },
     {
-      "collection": "accomplishments_projects",
-      "field": "accomplishments_id",
-      "related_collection": "accomplishments",
+      "collection": "accomplishments",
+      "field": "user_created",
+      "related_collection": "directus_users",
       "meta": {
-        "junction_field": "projects_id",
-        "many_collection": "accomplishments_projects",
-        "many_field": "accomplishments_id",
+        "junction_field": null,
+        "many_collection": "accomplishments",
+        "many_field": "user_created",
         "one_allowed_collections": null,
-        "one_collection": "accomplishments",
+        "one_collection": "directus_users",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
-        "one_field": "related_projects",
-        "sort_field": "sort"
+        "one_field": null,
+        "sort_field": null
       },
       "schema": {
-        "table": "accomplishments_projects",
-        "column": "accomplishments_id",
-        "foreign_key_table": "accomplishments",
+        "table": "accomplishments",
+        "column": "user_created",
+        "foreign_key_table": "directus_users",
         "foreign_key_column": "id",
-        "constraint_name": "accomplishments_projects_accomplishments_id_foreign",
+        "constraint_name": "accomplishments_user_created_foreign",
         "on_update": "NO ACTION",
-        "on_delete": "SET NULL"
+        "on_delete": "NO ACTION"
       }
     },
     {
@@ -14987,26 +15649,26 @@
       }
     },
     {
-      "collection": "accomplishments_skills",
+      "collection": "accomplishments_projects",
       "field": "accomplishments_id",
       "related_collection": "accomplishments",
       "meta": {
-        "junction_field": "skills_id",
-        "many_collection": "accomplishments_skills",
+        "junction_field": "projects_id",
+        "many_collection": "accomplishments_projects",
         "many_field": "accomplishments_id",
         "one_allowed_collections": null,
         "one_collection": "accomplishments",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
-        "one_field": "related_skills",
+        "one_field": "related_projects",
         "sort_field": "sort"
       },
       "schema": {
-        "table": "accomplishments_skills",
+        "table": "accomplishments_projects",
         "column": "accomplishments_id",
         "foreign_key_table": "accomplishments",
         "foreign_key_column": "id",
-        "constraint_name": "accomplishments_skills_accomplishments_id_foreign",
+        "constraint_name": "accomplishments_projects_accomplishments_id_foreign",
         "on_update": "NO ACTION",
         "on_delete": "SET NULL"
       }
@@ -15037,26 +15699,26 @@
       }
     },
     {
-      "collection": "accomplishments_technologies",
+      "collection": "accomplishments_skills",
       "field": "accomplishments_id",
       "related_collection": "accomplishments",
       "meta": {
-        "junction_field": "technologies_id",
-        "many_collection": "accomplishments_technologies",
+        "junction_field": "skills_id",
+        "many_collection": "accomplishments_skills",
         "many_field": "accomplishments_id",
         "one_allowed_collections": null,
         "one_collection": "accomplishments",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
-        "one_field": "related_technologies",
-        "sort_field": null
+        "one_field": "related_skills",
+        "sort_field": "sort"
       },
       "schema": {
-        "table": "accomplishments_technologies",
+        "table": "accomplishments_skills",
         "column": "accomplishments_id",
         "foreign_key_table": "accomplishments",
         "foreign_key_column": "id",
-        "constraint_name": "accomplishments_technologies_accomplishments_id_foreign",
+        "constraint_name": "accomplishments_skills_accomplishments_id_foreign",
         "on_update": "NO ACTION",
         "on_delete": "SET NULL"
       }
@@ -15087,12 +15749,37 @@
       }
     },
     {
-      "collection": "certifications",
+      "collection": "accomplishments_technologies",
+      "field": "accomplishments_id",
+      "related_collection": "accomplishments",
+      "meta": {
+        "junction_field": "technologies_id",
+        "many_collection": "accomplishments_technologies",
+        "many_field": "accomplishments_id",
+        "one_allowed_collections": null,
+        "one_collection": "accomplishments",
+        "one_collection_field": null,
+        "one_deselect_action": "nullify",
+        "one_field": "related_technologies",
+        "sort_field": null
+      },
+      "schema": {
+        "table": "accomplishments_technologies",
+        "column": "accomplishments_id",
+        "foreign_key_table": "accomplishments",
+        "foreign_key_column": "id",
+        "constraint_name": "accomplishments_technologies_accomplishments_id_foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "SET NULL"
+      }
+    },
+    {
+      "collection": "ai_prompts",
       "field": "user_created",
       "related_collection": "directus_users",
       "meta": {
         "junction_field": null,
-        "many_collection": "certifications",
+        "many_collection": "ai_prompts",
         "many_field": "user_created",
         "one_allowed_collections": null,
         "one_collection": "directus_users",
@@ -15100,6 +15787,40 @@
         "one_deselect_action": "nullify",
         "one_field": null,
         "sort_field": null
+      },
+      "schema": {
+        "table": "ai_prompts",
+        "column": "user_created",
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id",
+        "constraint_name": "ai_prompts_user_created_foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION"
+      }
+    },
+    {
+      "collection": "ai_prompts",
+      "field": "user_updated",
+      "related_collection": "directus_users",
+      "meta": {
+        "junction_field": null,
+        "many_collection": "ai_prompts",
+        "many_field": "user_updated",
+        "one_allowed_collections": null,
+        "one_collection": "directus_users",
+        "one_collection_field": null,
+        "one_deselect_action": "nullify",
+        "one_field": null,
+        "sort_field": null
+      },
+      "schema": {
+        "table": "ai_prompts",
+        "column": "user_updated",
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id",
+        "constraint_name": "ai_prompts_user_updated_foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION"
       }
     },
     {
@@ -15128,37 +15849,12 @@
       }
     },
     {
-      "collection": "companies",
-      "field": "logo",
-      "related_collection": "directus_files",
-      "meta": {
-        "junction_field": null,
-        "many_collection": "companies",
-        "many_field": "logo",
-        "one_allowed_collections": null,
-        "one_collection": "directus_files",
-        "one_collection_field": null,
-        "one_deselect_action": "nullify",
-        "one_field": null,
-        "sort_field": null
-      },
-      "schema": {
-        "table": "companies",
-        "column": "logo",
-        "foreign_key_table": "directus_files",
-        "foreign_key_column": "id",
-        "constraint_name": "companies_logo_foreign",
-        "on_update": "NO ACTION",
-        "on_delete": "SET NULL"
-      }
-    },
-    {
-      "collection": "companies",
+      "collection": "certifications",
       "field": "user_created",
       "related_collection": "directus_users",
       "meta": {
         "junction_field": null,
-        "many_collection": "companies",
+        "many_collection": "certifications",
         "many_field": "user_created",
         "one_allowed_collections": null,
         "one_collection": "directus_users",
@@ -15168,11 +15864,11 @@
         "sort_field": null
       },
       "schema": {
-        "table": "companies",
+        "table": "certifications",
         "column": "user_created",
         "foreign_key_table": "directus_users",
         "foreign_key_column": "id",
-        "constraint_name": "companies_user_created_foreign",
+        "constraint_name": "certifications_user_created_foreign",
         "on_update": "NO ACTION",
         "on_delete": "NO ACTION"
       }
@@ -15203,26 +15899,76 @@
       }
     },
     {
+      "collection": "companies",
+      "field": "user_created",
+      "related_collection": "directus_users",
+      "meta": {
+        "junction_field": null,
+        "many_collection": "companies",
+        "many_field": "user_created",
+        "one_allowed_collections": null,
+        "one_collection": "directus_users",
+        "one_collection_field": null,
+        "one_deselect_action": "nullify",
+        "one_field": null,
+        "sort_field": null
+      },
+      "schema": {
+        "table": "companies",
+        "column": "user_created",
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id",
+        "constraint_name": "companies_user_created_foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION"
+      }
+    },
+    {
+      "collection": "companies",
+      "field": "logo",
+      "related_collection": "directus_files",
+      "meta": {
+        "junction_field": null,
+        "many_collection": "companies",
+        "many_field": "logo",
+        "one_allowed_collections": null,
+        "one_collection": "directus_files",
+        "one_collection_field": null,
+        "one_deselect_action": "nullify",
+        "one_field": null,
+        "sort_field": null
+      },
+      "schema": {
+        "table": "companies",
+        "column": "logo",
+        "foreign_key_table": "directus_files",
+        "foreign_key_column": "id",
+        "constraint_name": "companies_logo_foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "SET NULL"
+      }
+    },
+    {
       "collection": "cover_letters",
-      "field": "parent_cover_letter",
-      "related_collection": "cover_letters",
+      "field": "user_updated",
+      "related_collection": "directus_users",
       "meta": {
         "junction_field": null,
         "many_collection": "cover_letters",
-        "many_field": "parent_cover_letter",
+        "many_field": "user_updated",
         "one_allowed_collections": null,
-        "one_collection": "cover_letters",
+        "one_collection": "directus_users",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
-        "one_field": "cover_letters",
+        "one_field": null,
         "sort_field": null
       },
       "schema": {
         "table": "cover_letters",
-        "column": "parent_cover_letter",
-        "foreign_key_table": "cover_letters",
+        "column": "user_updated",
+        "foreign_key_table": "directus_users",
         "foreign_key_column": "id",
-        "constraint_name": "cover_letters_parent_cover_letter_foreign",
+        "constraint_name": "cover_letters_user_updated_foreign",
         "on_update": "NO ACTION",
         "on_delete": "NO ACTION"
       }
@@ -15254,43 +16000,27 @@
     },
     {
       "collection": "cover_letters",
-      "field": "user_updated",
-      "related_collection": "directus_users",
+      "field": "parent_cover_letter",
+      "related_collection": "cover_letters",
       "meta": {
         "junction_field": null,
         "many_collection": "cover_letters",
-        "many_field": "user_updated",
+        "many_field": "parent_cover_letter",
         "one_allowed_collections": null,
-        "one_collection": "directus_users",
+        "one_collection": "cover_letters",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
-        "one_field": null,
+        "one_field": "cover_letters",
         "sort_field": null
       },
       "schema": {
         "table": "cover_letters",
-        "column": "user_updated",
-        "foreign_key_table": "directus_users",
+        "column": "parent_cover_letter",
+        "foreign_key_table": "cover_letters",
         "foreign_key_column": "id",
-        "constraint_name": "cover_letters_user_updated_foreign",
+        "constraint_name": "cover_letters_parent_cover_letter_foreign",
         "on_update": "NO ACTION",
         "on_delete": "NO ACTION"
-      }
-    },
-    {
-      "collection": "education",
-      "field": "user_created",
-      "related_collection": "directus_users",
-      "meta": {
-        "junction_field": null,
-        "many_collection": "education",
-        "many_field": "user_created",
-        "one_allowed_collections": null,
-        "one_collection": "directus_users",
-        "one_collection_field": null,
-        "one_deselect_action": "nullify",
-        "one_field": null,
-        "sort_field": null
       }
     },
     {
@@ -15319,28 +16049,28 @@
       }
     },
     {
-      "collection": "education_accomplishments",
-      "field": "accomplishments_id",
-      "related_collection": "accomplishments",
+      "collection": "education",
+      "field": "user_created",
+      "related_collection": "directus_users",
       "meta": {
-        "junction_field": "education_id",
-        "many_collection": "education_accomplishments",
-        "many_field": "accomplishments_id",
+        "junction_field": null,
+        "many_collection": "education",
+        "many_field": "user_created",
         "one_allowed_collections": null,
-        "one_collection": "accomplishments",
+        "one_collection": "directus_users",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
-        "one_field": "education",
+        "one_field": null,
         "sort_field": null
       },
       "schema": {
-        "table": "education_accomplishments",
-        "column": "accomplishments_id",
-        "foreign_key_table": "accomplishments",
+        "table": "education",
+        "column": "user_created",
+        "foreign_key_table": "directus_users",
         "foreign_key_column": "id",
-        "constraint_name": "education_accomplishments_accomplishments_id_foreign",
+        "constraint_name": "education_user_created_foreign",
         "on_update": "NO ACTION",
-        "on_delete": "SET NULL"
+        "on_delete": "NO ACTION"
       }
     },
     {
@@ -15364,6 +16094,31 @@
         "foreign_key_table": "education",
         "foreign_key_column": "id",
         "constraint_name": "education_accomplishments_education_id_foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "SET NULL"
+      }
+    },
+    {
+      "collection": "education_accomplishments",
+      "field": "accomplishments_id",
+      "related_collection": "accomplishments",
+      "meta": {
+        "junction_field": "education_id",
+        "many_collection": "education_accomplishments",
+        "many_field": "accomplishments_id",
+        "one_allowed_collections": null,
+        "one_collection": "accomplishments",
+        "one_collection_field": null,
+        "one_deselect_action": "nullify",
+        "one_field": "education",
+        "sort_field": null
+      },
+      "schema": {
+        "table": "education_accomplishments",
+        "column": "accomplishments_id",
+        "foreign_key_table": "accomplishments",
+        "foreign_key_column": "id",
+        "constraint_name": "education_accomplishments_accomplishments_id_foreign",
         "on_update": "NO ACTION",
         "on_delete": "SET NULL"
       }
@@ -15416,14 +16171,14 @@
     },
     {
       "collection": "identity",
-      "field": "profile_photo",
-      "related_collection": "directus_files",
+      "field": "user_updated",
+      "related_collection": "directus_users",
       "meta": {
         "junction_field": null,
         "many_collection": "identity",
-        "many_field": "profile_photo",
+        "many_field": "user_updated",
         "one_allowed_collections": null,
-        "one_collection": "directus_files",
+        "one_collection": "directus_users",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
         "one_field": null,
@@ -15431,12 +16186,12 @@
       },
       "schema": {
         "table": "identity",
-        "column": "profile_photo",
-        "foreign_key_table": "directus_files",
+        "column": "user_updated",
+        "foreign_key_table": "directus_users",
         "foreign_key_column": "id",
-        "constraint_name": "identity_profile_photo_foreign",
+        "constraint_name": "identity_user_updated_foreign",
         "on_update": "NO ACTION",
-        "on_delete": "SET NULL"
+        "on_delete": "NO ACTION"
       }
     },
     {
@@ -15466,14 +16221,14 @@
     },
     {
       "collection": "identity",
-      "field": "user_updated",
-      "related_collection": "directus_users",
+      "field": "profile_photo",
+      "related_collection": "directus_files",
       "meta": {
         "junction_field": null,
         "many_collection": "identity",
-        "many_field": "user_updated",
+        "many_field": "profile_photo",
         "one_allowed_collections": null,
-        "one_collection": "directus_users",
+        "one_collection": "directus_files",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
         "one_field": null,
@@ -15481,62 +16236,12 @@
       },
       "schema": {
         "table": "identity",
-        "column": "user_updated",
-        "foreign_key_table": "directus_users",
+        "column": "profile_photo",
+        "foreign_key_table": "directus_files",
         "foreign_key_column": "id",
-        "constraint_name": "identity_user_updated_foreign",
-        "on_update": "NO ACTION",
-        "on_delete": "NO ACTION"
-      }
-    },
-    {
-      "collection": "job_applications",
-      "field": "cover_letter_used_",
-      "related_collection": "cover_letters",
-      "meta": {
-        "junction_field": null,
-        "many_collection": "job_applications",
-        "many_field": "cover_letter_used_",
-        "one_allowed_collections": null,
-        "one_collection": "cover_letters",
-        "one_collection_field": null,
-        "one_deselect_action": "nullify",
-        "one_field": "job_applications",
-        "sort_field": null
-      },
-      "schema": {
-        "table": "job_applications",
-        "column": "cover_letter_used_",
-        "foreign_key_table": "cover_letters",
-        "foreign_key_column": "id",
-        "constraint_name": "job_applications_cover_letter_used__foreign",
+        "constraint_name": "identity_profile_photo_foreign",
         "on_update": "NO ACTION",
         "on_delete": "SET NULL"
-      }
-    },
-    {
-      "collection": "job_applications",
-      "field": "user_created",
-      "related_collection": "directus_users",
-      "meta": {
-        "junction_field": null,
-        "many_collection": "job_applications",
-        "many_field": "user_created",
-        "one_allowed_collections": null,
-        "one_collection": "directus_users",
-        "one_collection_field": null,
-        "one_deselect_action": "nullify",
-        "one_field": null,
-        "sort_field": null
-      },
-      "schema": {
-        "table": "job_applications",
-        "column": "user_created",
-        "foreign_key_table": "directus_users",
-        "foreign_key_column": "id",
-        "constraint_name": "job_applications_user_created_foreign",
-        "on_update": "NO ACTION",
-        "on_delete": "NO ACTION"
       }
     },
     {
@@ -15560,6 +16265,31 @@
         "foreign_key_table": "directus_users",
         "foreign_key_column": "id",
         "constraint_name": "job_applications_user_updated_foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION"
+      }
+    },
+    {
+      "collection": "job_applications",
+      "field": "user_created",
+      "related_collection": "directus_users",
+      "meta": {
+        "junction_field": null,
+        "many_collection": "job_applications",
+        "many_field": "user_created",
+        "one_allowed_collections": null,
+        "one_collection": "directus_users",
+        "one_collection_field": null,
+        "one_deselect_action": "nullify",
+        "one_field": null,
+        "sort_field": null
+      },
+      "schema": {
+        "table": "job_applications",
+        "column": "user_created",
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id",
+        "constraint_name": "job_applications_user_created_foreign",
         "on_update": "NO ACTION",
         "on_delete": "NO ACTION"
       }
@@ -15590,6 +16320,56 @@
       }
     },
     {
+      "collection": "job_applications",
+      "field": "cover_letter_used_",
+      "related_collection": "cover_letters",
+      "meta": {
+        "junction_field": null,
+        "many_collection": "job_applications",
+        "many_field": "cover_letter_used_",
+        "one_allowed_collections": null,
+        "one_collection": "cover_letters",
+        "one_collection_field": null,
+        "one_deselect_action": "nullify",
+        "one_field": "job_applications",
+        "sort_field": null
+      },
+      "schema": {
+        "table": "job_applications",
+        "column": "cover_letter_used_",
+        "foreign_key_table": "cover_letters",
+        "foreign_key_column": "id",
+        "constraint_name": "job_applications_cover_letter_used__foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "SET NULL"
+      }
+    },
+    {
+      "collection": "master_resume_system_docs",
+      "field": "user_updated",
+      "related_collection": "directus_users",
+      "meta": {
+        "junction_field": null,
+        "many_collection": "master_resume_system_docs",
+        "many_field": "user_updated",
+        "one_allowed_collections": null,
+        "one_collection": "directus_users",
+        "one_collection_field": null,
+        "one_deselect_action": "nullify",
+        "one_field": null,
+        "sort_field": null
+      },
+      "schema": {
+        "table": "master_resume_system_docs",
+        "column": "user_updated",
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id",
+        "constraint_name": "master_resume_system_docs_user_updated_foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION"
+      }
+    },
+    {
       "collection": "master_resume_system_docs",
       "field": "user_created",
       "related_collection": "directus_users",
@@ -15615,12 +16395,12 @@
       }
     },
     {
-      "collection": "master_resume_system_docs",
+      "collection": "positions",
       "field": "user_updated",
       "related_collection": "directus_users",
       "meta": {
         "junction_field": null,
-        "many_collection": "master_resume_system_docs",
+        "many_collection": "positions",
         "many_field": "user_updated",
         "one_allowed_collections": null,
         "one_collection": "directus_users",
@@ -15630,11 +16410,11 @@
         "sort_field": null
       },
       "schema": {
-        "table": "master_resume_system_docs",
+        "table": "positions",
         "column": "user_updated",
         "foreign_key_table": "directus_users",
         "foreign_key_column": "id",
-        "constraint_name": "master_resume_system_docs_user_updated_foreign",
+        "constraint_name": "positions_user_updated_foreign",
         "on_update": "NO ACTION",
         "on_delete": "NO ACTION"
       }
@@ -15678,54 +16458,13 @@
         "one_deselect_action": "nullify",
         "one_field": null,
         "sort_field": null
-      }
-    },
-    {
-      "collection": "positions",
-      "field": "user_updated",
-      "related_collection": "directus_users",
-      "meta": {
-        "junction_field": null,
-        "many_collection": "positions",
-        "many_field": "user_updated",
-        "one_allowed_collections": null,
-        "one_collection": "directus_users",
-        "one_collection_field": null,
-        "one_deselect_action": "nullify",
-        "one_field": null,
-        "sort_field": null
       },
       "schema": {
         "table": "positions",
-        "column": "user_updated",
-        "foreign_key_table": "directus_users",
-        "foreign_key_column": "id",
-        "constraint_name": "positions_user_updated_foreign",
-        "on_update": "NO ACTION",
-        "on_delete": "NO ACTION"
-      }
-    },
-    {
-      "collection": "professional_summaries",
-      "field": "user_created",
-      "related_collection": "directus_users",
-      "meta": {
-        "junction_field": null,
-        "many_collection": "professional_summaries",
-        "many_field": "user_created",
-        "one_allowed_collections": null,
-        "one_collection": "directus_users",
-        "one_collection_field": null,
-        "one_deselect_action": "nullify",
-        "one_field": null,
-        "sort_field": null
-      },
-      "schema": {
-        "table": "professional_summaries",
         "column": "user_created",
         "foreign_key_table": "directus_users",
         "foreign_key_column": "id",
-        "constraint_name": "professional_summaries_user_created_foreign",
+        "constraint_name": "positions_user_created_foreign",
         "on_update": "NO ACTION",
         "on_delete": "NO ACTION"
       }
@@ -15756,12 +16495,12 @@
       }
     },
     {
-      "collection": "projects",
+      "collection": "professional_summaries",
       "field": "user_created",
       "related_collection": "directus_users",
       "meta": {
         "junction_field": null,
-        "many_collection": "projects",
+        "many_collection": "professional_summaries",
         "many_field": "user_created",
         "one_allowed_collections": null,
         "one_collection": "directus_users",
@@ -15769,6 +16508,15 @@
         "one_deselect_action": "nullify",
         "one_field": null,
         "sort_field": null
+      },
+      "schema": {
+        "table": "professional_summaries",
+        "column": "user_created",
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id",
+        "constraint_name": "professional_summaries_user_created_foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION"
       }
     },
     {
@@ -15797,28 +16545,28 @@
       }
     },
     {
-      "collection": "projects_companies",
-      "field": "companies_id",
-      "related_collection": "companies",
+      "collection": "projects",
+      "field": "user_created",
+      "related_collection": "directus_users",
       "meta": {
-        "junction_field": "projects_id",
-        "many_collection": "projects_companies",
-        "many_field": "companies_id",
+        "junction_field": null,
+        "many_collection": "projects",
+        "many_field": "user_created",
         "one_allowed_collections": null,
-        "one_collection": "companies",
+        "one_collection": "directus_users",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
-        "one_field": "projects",
+        "one_field": null,
         "sort_field": null
       },
       "schema": {
-        "table": "projects_companies",
-        "column": "companies_id",
-        "foreign_key_table": "companies",
+        "table": "projects",
+        "column": "user_created",
+        "foreign_key_table": "directus_users",
         "foreign_key_column": "id",
-        "constraint_name": "projects_companies_companies_id_foreign",
+        "constraint_name": "projects_user_created_foreign",
         "on_update": "NO ACTION",
-        "on_delete": "SET NULL"
+        "on_delete": "NO ACTION"
       }
     },
     {
@@ -15847,26 +16595,26 @@
       }
     },
     {
-      "collection": "projects_positions",
-      "field": "positions_id",
-      "related_collection": "positions",
+      "collection": "projects_companies",
+      "field": "companies_id",
+      "related_collection": "companies",
       "meta": {
         "junction_field": "projects_id",
-        "many_collection": "projects_positions",
-        "many_field": "positions_id",
+        "many_collection": "projects_companies",
+        "many_field": "companies_id",
         "one_allowed_collections": null,
-        "one_collection": "positions",
+        "one_collection": "companies",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
         "one_field": "projects",
         "sort_field": null
       },
       "schema": {
-        "table": "projects_positions",
-        "column": "positions_id",
-        "foreign_key_table": "positions",
+        "table": "projects_companies",
+        "column": "companies_id",
+        "foreign_key_table": "companies",
         "foreign_key_column": "id",
-        "constraint_name": "projects_positions_positions_id_foreign",
+        "constraint_name": "projects_companies_companies_id_foreign",
         "on_update": "NO ACTION",
         "on_delete": "SET NULL"
       }
@@ -15897,26 +16645,26 @@
       }
     },
     {
-      "collection": "projects_skills",
-      "field": "projects_id",
-      "related_collection": "projects",
+      "collection": "projects_positions",
+      "field": "positions_id",
+      "related_collection": "positions",
       "meta": {
-        "junction_field": "skills_id",
-        "many_collection": "projects_skills",
-        "many_field": "projects_id",
+        "junction_field": "projects_id",
+        "many_collection": "projects_positions",
+        "many_field": "positions_id",
         "one_allowed_collections": null,
-        "one_collection": "projects",
+        "one_collection": "positions",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
-        "one_field": "skills_demonstrated",
-        "sort_field": "sort"
+        "one_field": "projects",
+        "sort_field": null
       },
       "schema": {
-        "table": "projects_skills",
-        "column": "projects_id",
-        "foreign_key_table": "projects",
+        "table": "projects_positions",
+        "column": "positions_id",
+        "foreign_key_table": "positions",
         "foreign_key_column": "id",
-        "constraint_name": "projects_skills_projects_id_foreign",
+        "constraint_name": "projects_positions_positions_id_foreign",
         "on_update": "NO ACTION",
         "on_delete": "SET NULL"
       }
@@ -15947,26 +16695,26 @@
       }
     },
     {
-      "collection": "projects_technologies",
+      "collection": "projects_skills",
       "field": "projects_id",
       "related_collection": "projects",
       "meta": {
-        "junction_field": "technologies_id",
-        "many_collection": "projects_technologies",
+        "junction_field": "skills_id",
+        "many_collection": "projects_skills",
         "many_field": "projects_id",
         "one_allowed_collections": null,
         "one_collection": "projects",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
-        "one_field": "technologies_used",
+        "one_field": "skills_demonstrated",
         "sort_field": "sort"
       },
       "schema": {
-        "table": "projects_technologies",
+        "table": "projects_skills",
         "column": "projects_id",
         "foreign_key_table": "projects",
         "foreign_key_column": "id",
-        "constraint_name": "projects_technologies_projects_id_foreign",
+        "constraint_name": "projects_skills_projects_id_foreign",
         "on_update": "NO ACTION",
         "on_delete": "SET NULL"
       }
@@ -15997,28 +16745,28 @@
       }
     },
     {
-      "collection": "resumes",
-      "field": "user_created",
-      "related_collection": "directus_users",
+      "collection": "projects_technologies",
+      "field": "projects_id",
+      "related_collection": "projects",
       "meta": {
-        "junction_field": null,
-        "many_collection": "resumes",
-        "many_field": "user_created",
+        "junction_field": "technologies_id",
+        "many_collection": "projects_technologies",
+        "many_field": "projects_id",
         "one_allowed_collections": null,
-        "one_collection": "directus_users",
+        "one_collection": "projects",
         "one_collection_field": null,
         "one_deselect_action": "nullify",
-        "one_field": null,
-        "sort_field": null
+        "one_field": "technologies_used",
+        "sort_field": "sort"
       },
       "schema": {
-        "table": "resumes",
-        "column": "user_created",
-        "foreign_key_table": "directus_users",
+        "table": "projects_technologies",
+        "column": "projects_id",
+        "foreign_key_table": "projects",
         "foreign_key_column": "id",
-        "constraint_name": "resumes_user_created_foreign",
+        "constraint_name": "projects_technologies_projects_id_foreign",
         "on_update": "NO ACTION",
-        "on_delete": "NO ACTION"
+        "on_delete": "SET NULL"
       }
     },
     {
@@ -16042,6 +16790,31 @@
         "foreign_key_table": "directus_users",
         "foreign_key_column": "id",
         "constraint_name": "resumes_user_updated_foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION"
+      }
+    },
+    {
+      "collection": "resumes",
+      "field": "user_created",
+      "related_collection": "directus_users",
+      "meta": {
+        "junction_field": null,
+        "many_collection": "resumes",
+        "many_field": "user_created",
+        "one_allowed_collections": null,
+        "one_collection": "directus_users",
+        "one_collection_field": null,
+        "one_deselect_action": "nullify",
+        "one_field": null,
+        "sort_field": null
+      },
+      "schema": {
+        "table": "resumes",
+        "column": "user_created",
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id",
+        "constraint_name": "resumes_user_created_foreign",
         "on_update": "NO ACTION",
         "on_delete": "NO ACTION"
       }
@@ -16073,22 +16846,6 @@
     },
     {
       "collection": "skills",
-      "field": "user_created",
-      "related_collection": "directus_users",
-      "meta": {
-        "junction_field": null,
-        "many_collection": "skills",
-        "many_field": "user_created",
-        "one_allowed_collections": null,
-        "one_collection": "directus_users",
-        "one_collection_field": null,
-        "one_deselect_action": "nullify",
-        "one_field": null,
-        "sort_field": null
-      }
-    },
-    {
-      "collection": "skills",
       "field": "user_updated",
       "related_collection": "directus_users",
       "meta": {
@@ -16113,12 +16870,12 @@
       }
     },
     {
-      "collection": "system_settings",
+      "collection": "skills",
       "field": "user_created",
       "related_collection": "directus_users",
       "meta": {
         "junction_field": null,
-        "many_collection": "system_settings",
+        "many_collection": "skills",
         "many_field": "user_created",
         "one_allowed_collections": null,
         "one_collection": "directus_users",
@@ -16128,11 +16885,11 @@
         "sort_field": null
       },
       "schema": {
-        "table": "system_settings",
+        "table": "skills",
         "column": "user_created",
         "foreign_key_table": "directus_users",
         "foreign_key_column": "id",
-        "constraint_name": "system_settings_user_created_foreign",
+        "constraint_name": "skills_user_created_foreign",
         "on_update": "NO ACTION",
         "on_delete": "NO ACTION"
       }
@@ -16163,12 +16920,12 @@
       }
     },
     {
-      "collection": "technologies",
+      "collection": "system_settings",
       "field": "user_created",
       "related_collection": "directus_users",
       "meta": {
         "junction_field": null,
-        "many_collection": "technologies",
+        "many_collection": "system_settings",
         "many_field": "user_created",
         "one_allowed_collections": null,
         "one_collection": "directus_users",
@@ -16176,6 +16933,15 @@
         "one_deselect_action": "nullify",
         "one_field": null,
         "sort_field": null
+      },
+      "schema": {
+        "table": "system_settings",
+        "column": "user_created",
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id",
+        "constraint_name": "system_settings_user_created_foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION"
       }
     },
     {
@@ -16199,6 +16965,31 @@
         "foreign_key_table": "directus_users",
         "foreign_key_column": "id",
         "constraint_name": "technologies_user_updated_foreign",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION"
+      }
+    },
+    {
+      "collection": "technologies",
+      "field": "user_created",
+      "related_collection": "directus_users",
+      "meta": {
+        "junction_field": null,
+        "many_collection": "technologies",
+        "many_field": "user_created",
+        "one_allowed_collections": null,
+        "one_collection": "directus_users",
+        "one_collection_field": null,
+        "one_deselect_action": "nullify",
+        "one_field": null,
+        "sort_field": null
+      },
+      "schema": {
+        "table": "technologies",
+        "column": "user_created",
+        "foreign_key_table": "directus_users",
+        "foreign_key_column": "id",
+        "constraint_name": "technologies_user_created_foreign",
         "on_update": "NO ACTION",
         "on_delete": "NO ACTION"
       }

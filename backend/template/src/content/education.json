@@ -1,7 +1,7 @@
 [
   {
     "date_created": "2025-12-08T19:50:57.423Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:39.659Z",
     "degree_type": "bachelors",
     "description": null,
     "field_of_study": "Animation Arts",
@@ -12,14 +12,14 @@
     "start_date": null,
     "status": "published",
     "summary": null,
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [],
     "related_items": []
   },
   {
     "date_created": "2025-12-08T19:50:57.427Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:39.666Z",
     "degree_type": "masters",
     "description": null,
     "field_of_study": "Entertainment Business Management",
@@ -30,8 +30,8 @@
     "start_date": null,
     "status": "published",
     "summary": null,
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [],
     "related_items": []
   }

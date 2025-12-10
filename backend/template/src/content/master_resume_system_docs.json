@@ -6,7 +6,7 @@
     "conversation_context": "Initial design session for Master Resume System database schema. Discussed AI-powered resume generation, content variations, and intelligent selection tracking.",
     "conversation_date": "2025-01-09",
     "date_created": "2025-12-08T18:29:37.970Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:39.768Z",
     "id": 1,
     "implementation_notes": "Schema designed to support AI-powered resume generation with full transparency into AI decision-making process. Focus on content reusability and tracking effectiveness.",
     "key_decisions": "- Separated resumes/cover letters from job applications for better tracking\n- Added junction tables with AI reasoning fields\n- Created content variation system (multiple summaries, titles, accomplishment versions)\n- Implemented many-to-many relationships for professional summaries in resumes\n- Added version control with parent-child relationships",
@@ -35,8 +35,8 @@
       "master-resume-system"
     ],
     "title": "Master Resume System - Database Schema Design",
-    "user_created": null,
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "version": "1.0"
   },
   {
@@ -46,7 +46,7 @@
     "conversation_context": "Documentation of next steps after creating all core collections for the Master Resume System. Comprehensive guide for implementing relationships, junction tables, and AI integration.",
     "conversation_date": "2025-09-10",
     "date_created": "2025-12-08T18:29:37.984Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:39.786Z",
     "id": 4,
     "implementation_notes": "This document provides the complete roadmap for taking the Master Resume System from basic collections to a fully functional AI-powered resume generation platform. Follow phases sequentially for best results.",
     "key_decisions": "- Manual relationship creation required due to API limitations\n- Junction tables will track AI decision reasoning\n- Phased implementation approach for manageable complexity\n- Content-first strategy before AI integration\n- Comprehensive tracking for optimization and learning",
@@ -68,8 +68,8 @@
       "roadmap"
     ],
     "title": "Master Resume System - Implementation Next Steps & Relationships",
-    "user_created": null,
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "version": "1.0"
   },
   {
@@ -79,7 +79,7 @@
     "conversation_context": "Quick reference guide for creating junction tables in Directus UI, extracted from the comprehensive implementation documentation.",
     "conversation_date": "2025-09-10",
     "date_created": "2025-12-08T18:29:37.988Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:39.792Z",
     "id": 5,
     "implementation_notes": "This approach leverages Directus auto-creation of junction tables for basic relationships, with manual customization only needed for AI tracking fields. Much simpler than creating all junction tables manually.",
     "key_decisions": "- Let Directus auto-create junction tables for basic M2M relationships\n- Create M2O relationships first, then M2M relationships\n- Advanced AI tracking fields need to be added manually to auto-created junction tables\n- Separated into phases for logical implementation order",
@@ -100,8 +100,8 @@
       "m2o-fields"
     ],
     "title": "M2M Fields Quick Reference - Let Directus Handle Junction Tables",
-    "user_created": null,
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "version": "1.0"
   }
 ]

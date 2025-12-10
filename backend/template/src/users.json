@@ -1,6 +1,6 @@
 [
   {
-    "id": "2a3e87cd-575b-41a2-993a-473988d3d70b",
+    "id": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "first_name": "Admin",
     "last_name": "User",
     "email": "admin@example.com",
@@ -13,9 +13,9 @@
     "language": null,
     "tfa_secret": null,
     "status": "active",
-    "role": "662ad6a0-6a8a-4181-8cb9-7a260fa7ae56",
-    "token": null,
-    "last_access": "2025-12-09T17:58:03.546Z",
+    "role": "54e18b60-7ba7-4a4b-89f9-241a2113069e",
+    "token": "**********",
+    "last_access": "2025-12-10T14:00:36.108Z",
     "last_page": "/content/technologies",
     "provider": "default",
     "external_identifier": null,

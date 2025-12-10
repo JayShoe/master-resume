@@ -2,7 +2,7 @@
   {
     "company": 6,
     "date_created": "2025-12-08T19:50:38.871Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:39.861Z",
     "department": null,
     "description": "<p>Worked as a teaching assistant while pursuing my degree in Animation Arts. Helped students with animation techniques and software tools.</p>",
     "employment_type": "part_time",
@@ -14,15 +14,15 @@
     "start_date": "2003-09-01",
     "status": "published",
     "summary": null,
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [],
     "projects": []
   },
   {
     "company": 2,
     "date_created": "2025-12-08T19:50:38.881Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:39.867Z",
     "department": "Animation",
     "description": "<p>Started my career as a cartoon performer at the legendary Maroon Cartoon Studios. Starred in numerous animated shorts alongside Baby Herman, bringing laughter to audiences worldwide.</p>",
     "employment_type": "full_time",
@@ -34,8 +34,8 @@
     "start_date": "2005-06-01",
     "status": "published",
     "summary": null,
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [
       1,
       9
@@ -45,7 +45,7 @@
   {
     "company": 2,
     "date_created": "2025-12-08T19:50:38.884Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:39.871Z",
     "department": "Production",
     "description": "<p>Transitioned from performing to directing, overseeing the creative vision for animated shorts. Managed teams of animators and coordinated with studio executives on production schedules.</p>",
     "employment_type": "full_time",
@@ -57,15 +57,15 @@
     "start_date": "2013-01-01",
     "status": "published",
     "summary": null,
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [],
     "projects": []
   },
   {
     "company": 4,
     "date_created": "2025-12-08T19:50:38.887Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:39.875Z",
     "department": null,
     "description": "<p>Founded my own production company to create original animated content. Handled all aspects of the business from creative development to client relations and financial management.</p>",
     "employment_type": "full_time",
@@ -77,8 +77,8 @@
     "start_date": "2015-07-01",
     "status": "published",
     "summary": null,
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [
       4,
       6
@@ -88,7 +88,7 @@
   {
     "company": 5,
     "date_created": "2025-12-08T19:50:38.889Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:39.880Z",
     "department": "Entertainment",
     "description": "<p>Managed live entertainment operations including character performances, show scheduling, and guest experience optimization across multiple venue locations.</p>",
     "employment_type": "full_time",
@@ -100,8 +100,8 @@
     "start_date": "2021-01-01",
     "status": "published",
     "summary": null,
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [
       7,
       8
@@ -111,7 +111,7 @@
   {
     "company": 3,
     "date_created": "2025-12-08T19:50:38.892Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:39.885Z",
     "department": null,
     "description": "<p>Leading product strategy and development for animation software tools. Working with engineering teams to build next-generation creative tools for animators and content creators worldwide.</p>",
     "employment_type": "full_time",
@@ -123,8 +123,8 @@
     "start_date": "2023-01-01",
     "status": "published",
     "summary": null,
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [
       2,
       3

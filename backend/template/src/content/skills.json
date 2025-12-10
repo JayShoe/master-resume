@@ -2,7 +2,7 @@
   {
     "category": "project_management",
     "date_created": "2025-12-08T19:50:55.211Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.169Z",
     "id": 4,
     "is_core_skill": true,
     "name": "Agile Methodologies",
@@ -10,8 +10,8 @@
     "sort": null,
     "start_date": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [
       4,
       10
@@ -21,7 +21,7 @@
   {
     "category": "business",
     "date_created": "2025-12-08T19:50:55.224Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.174Z",
     "id": 3,
     "is_core_skill": true,
     "name": "Business Development",
@@ -29,8 +29,8 @@
     "sort": null,
     "start_date": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [
       22
     ],
@@ -39,7 +39,7 @@
   {
     "category": "leadership",
     "date_created": "2025-12-08T19:50:55.227Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.178Z",
     "id": 10,
     "is_core_skill": false,
     "name": "Business Plan Writing",
@@ -47,8 +47,8 @@
     "sort": null,
     "start_date": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [
       24
     ],
@@ -57,7 +57,7 @@
   {
     "category": "business",
     "date_created": "2025-12-08T19:50:55.229Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.183Z",
     "id": 9,
     "is_core_skill": true,
     "name": "Customer Success",
@@ -65,8 +65,8 @@
     "sort": null,
     "start_date": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [
       7
     ],
@@ -75,7 +75,7 @@
   {
     "category": "analytics",
     "date_created": "2025-12-08T19:50:55.231Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.187Z",
     "id": 7,
     "is_core_skill": true,
     "name": "Data Analytics",
@@ -83,8 +83,8 @@
     "sort": null,
     "start_date": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [
       6,
       12,
@@ -95,7 +95,7 @@
   {
     "category": "creative",
     "date_created": "2025-12-08T19:50:55.233Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.192Z",
     "id": 11,
     "is_core_skill": true,
     "name": "Animation Direction",
@@ -103,8 +103,8 @@
     "sort": null,
     "start_date": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [
       21,
       25
@@ -114,7 +114,7 @@
   {
     "category": "creative",
     "date_created": "2025-12-08T19:50:55.235Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.197Z",
     "id": 12,
     "is_core_skill": true,
     "name": "Creative Production",
@@ -122,8 +122,8 @@
     "sort": null,
     "start_date": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [
       1,
       11,
@@ -135,7 +135,7 @@
   {
     "category": "leadership",
     "date_created": "2025-12-08T19:50:55.236Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.203Z",
     "id": 6,
     "is_core_skill": true,
     "name": "Leadership",
@@ -143,8 +143,8 @@
     "sort": null,
     "start_date": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [
       2,
       15,
@@ -157,7 +157,7 @@
   {
     "category": "business",
     "date_created": "2025-12-08T19:50:55.238Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.208Z",
     "id": 2,
     "is_core_skill": true,
     "name": "Product Management",
@@ -165,8 +165,8 @@
     "sort": null,
     "start_date": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [
       5,
       8,
@@ -177,7 +177,7 @@
   {
     "category": "project_management",
     "date_created": "2025-12-08T19:50:55.240Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:40.213Z",
     "id": 5,
     "is_core_skill": true,
     "name": "Project Management",
@@ -185,8 +185,8 @@
     "sort": null,
     "start_date": null,
     "status": "published",
-    "user_created": "97d0455c-b00a-4e3e-86f6-2d6d48409256",
-    "user_updated": null,
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636",
     "accomplishments": [
       3,
       9,

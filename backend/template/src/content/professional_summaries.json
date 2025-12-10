@@ -2,7 +2,7 @@
   {
     "content": "<p>Dynamic and creative Product Manager with 15+ years of experience spanning entertainment, animation, and technology. Proven track record of transitioning from award-winning performer to successful business leader in the animation industry. Expert in product development, team leadership, and bringing creative visions to market. Strong background in Agile development, SaaS platforms, and digital transformation. Passionate about building tools that empower creators and delight audiences worldwide.</p>",
     "date_created": "2025-12-08T18:29:38.005Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:39.969Z",
     "id": 2,
     "is_default": true,
     "sort": null,
@@ -10,13 +10,13 @@
     "target_industry": "Technology/Entertainment",
     "target_role_type": "Product Management",
     "title": "Master Professional Summary",
-    "user_created": null,
-    "user_updated": null
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636"
   },
   {
     "content": "<p>Award-winning animation professional with extensive experience in directing, producing, and performing in animated content. Skilled in leading creative teams, managing production pipelines, and delivering high-quality entertainment that resonates with audiences. Combines artistic vision with business acumen to drive successful projects from concept to completion.</p>",
     "date_created": "2025-12-08T18:29:38.007Z",
-    "date_updated": null,
+    "date_updated": "2025-12-10T13:34:39.979Z",
     "id": 3,
     "is_default": false,
     "sort": null,
@@ -24,7 +24,7 @@
     "target_industry": "Entertainment/Animation",
     "target_role_type": "Creative Direction",
     "title": "Entertainment Industry Summary",
-    "user_created": null,
-    "user_updated": null
+    "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
+    "user_updated": "125c4d38-ada4-400d-b8b3-cdefb2004636"
   }
 ]

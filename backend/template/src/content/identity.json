@@ -1,5 +1,5 @@
 {
-  "date_created": "2025-12-08T18:29:37.998Z",
+  "date_created": "2025-12-10T13:34:40.372Z",
   "date_updated": null,
   "email": "roger.rabbit@toontown.example.com",
   "first_name": "Roger",
@@ -13,7 +13,7 @@
   "sort": null,
   "status": "published",
   "tagline": null,
-  "user_created": null,
+  "user_created": "125c4d38-ada4-400d-b8b3-cdefb2004636",
   "user_updated": null,
   "website_url": "https://www.rogerrabbit.example.com"
 }

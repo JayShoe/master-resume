@@ -157,37 +157,35 @@ The Directus MCP server allows Claude Code to directly query and manage your res
 
 #### Setup Instructions:
 
-1. **Copy the example configuration:**
+1. **Enable the MCP Server in Directus:**
+   - Log into Directus at `http://localhost:8055/admin`
+   - Go to **Settings** (gear icon in the sidebar)
+   - Select **AI**
+   - Toggle **MCP Server** to enabled
+
+2. **Create the MCP configuration file:**
    ```bash
    cp .mcp.json.example .mcp.json
    ```
 
-2. **Edit `.mcp.json` with your Directus credentials:**
+3. **Edit `.mcp.json` with your Directus token** (the token you generated in "Generate an API Token" step above):
    ```json
    {
      "mcpServers": {
        "directus": {
-         "command": "npx",
-         "args": ["@directus/content-mcp@latest"],
-         "env": {
-           "DIRECTUS_URL": "http://localhost:8055",
-           "DIRECTUS_TOKEN": "your_token_from_step_3"
+         "url": "http://localhost:8055/mcp",
+         "type": "http",
+         "headers": {
+           "Authorization": "Bearer YOUR_DIRECTUS_TOKEN"
          }
        }
      }
    }
    ```
 
-3. **Configure Claude Code to use the MCP server:**
+4. **Restart Claude Code** to load the MCP server configuration. The server will automatically connect when Claude Code starts.
 
-   - The `.mcp.json` file must be in your project root directory
-   - Restart Claude Code or reload the workspace to load the MCP server
-   - The server will automatically connect when Claude Code starts
-   - You should see "directus" in the list of available MCP servers
-
-4. **Verify the connection:**
-
-   Once configured, you can ask Claude Code to:
+5. **Verify the connection** by asking Claude Code to:
    - "List all my accomplishments"
    - "Add a new skill: Python"
    - "Show my work experience"
@@ -195,10 +193,11 @@ The Directus MCP server allows Claude Code to directly query and manage your res
 
 #### Troubleshooting MCP Connection:
 
-- **Server not showing up:** Make sure `.mcp.json` is in the project root and restart Claude Code
-- **Authentication errors:** Verify your `DIRECTUS_TOKEN` is correct and has admin permissions
-- **Connection refused:** Ensure Directus is running at the specified URL (`http://localhost:8055`)
-- **Production deployment:** Update `DIRECTUS_URL` to your production URL (e.g., Railway deployment)
+- **Server not showing up:** Ensure `.mcp.json` is in the project root and restart Claude Code
+- **MCP not enabled:** Enable the MCP Server in Directus at Settings → AI
+- **Authentication errors:** Verify your token is correct and has admin permissions
+- **Connection refused:** Ensure Directus is running (`docker compose up -d` in backend folder)
+- **Production deployment:** Update the URL to your production URL (e.g., `https://your-app.railway.app/mcp`)
 
 **Important:** The `.mcp.json` file contains sensitive credentials and is excluded from git. Never commit this file to version control.
 
